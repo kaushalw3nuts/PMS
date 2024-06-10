@@ -64,6 +64,8 @@
 	.comment_section .input-row .comment-block .form-control::placeholder { font-size: 16px; }
 	.comment_section .input-row .comment-block .pic_box { height: 30px; width: 30px; }
 	.comment_section .input-row .comment-block .btnbox { height: 30px; width: 30px; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
+	.user_availability_section .user_view_report { padding: 60px 0 0 0; }
 
 	/* ========== User_Projects Page Style: End ========== */
 
@@ -162,6 +164,8 @@
 	.project_detail_description .comment_section .comments-list .comment_content .icon { height: 28px; min-width: 28px; max-width: 28px; }
 	.project_detail_description .comment_section .comments-list .comment_content .icon span { height: 24px; width: 24px; font-size: 10px; }
 	.project_detail_description .comment_section .comments-list .comment_content p { max-width: none; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
+	.user_availability_section .user_view_report { padding: 60px 0 0 0; }
 
 	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
 }
@@ -201,6 +205,8 @@
 	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 350px; }
 	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 350px - 140px); }
 	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 350px; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
+	.user_availability_section .user_view_report { padding: 80px 0 0 0; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -338,6 +344,7 @@
 	.timmer_box .right_part .spend_time p { font-size: 20px; }
 	.timmer_box .right_part .spend_time p a { height: 44px; }
 	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
 	.user_report_title_sec .title h3 { height: 42px; }
 	.user_report_title_sec .input-row { gap: 18px; }
 	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 78px - 250px - 140px); }
@@ -417,7 +424,7 @@
 
 	/* ========== Manager_User_Availability Pages Style: Start ========== */
 
-	.user_availability_section .user_view_report { padding: 80px 0 0 0; }
+	.user_availability_section .user_view_report { padding: 60px 0 0 0; }
 	.user_no_availability_section { margin: 0; }
 	.user_no_task_scetion .user_no_task_wrap { margin: 90px auto 80px auto; }
 	.user_no_task_scetion .user_no_task_wrap .no_task_add .no_task_img { max-width: 230px; }
@@ -590,6 +597,7 @@
 	.timmer_box .right_part .spend_time p { font-size: 20px; }
 	.timmer_box .right_part .spend_time p a { height: 42px; }
 	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
 	.user_report_title_sec .title h3 { height: 42px; }
 	.user_report_title_sec .input-row { gap: 18px; }
 	.user_report_accordion .accordion-body .sub_title .time { text-align: right; }
@@ -680,7 +688,7 @@
 
 	/* ========== Manager_User_Availability Pages Style: Start ========== */
 
-	.user_availability_section .user_view_report { padding: 80px 0 0 0; }
+	.user_availability_section .user_view_report { padding: 60px 0 0 0; }
 	.user_no_availability_section { margin: 0; }
 	.user_no_task_scetion .user_no_task_wrap { margin: 80px auto; }
 	.user_no_task_scetion .user_no_task_wrap .no_task_add { margin: 70px 0; }
@@ -874,6 +882,7 @@
 	.timmer_box .right_part .spend_time p { font-size: 18px; }
 	.timmer_box .right_part .spend_time p a { font-size: 14px; height: 42px; }
 	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
 	.user_report_title_sec .title h3 { height: 38px; font-size: 18px; }
 	.user_report_title_sec .input-row { gap: 16px; }
 	.user_report_title_sec .input-row .calander { max-width: 140px; }
@@ -990,7 +999,7 @@
 	/* ========== Manager_User_Availability Pages Style: Start ========== */
 
 	.user_availability_section { padding: 0 26px 26px 26px; }
-	.user_availability_section .user_view_report { padding: 70px 0 0 0; }
+	.user_availability_section .user_view_report { padding: 50px 0 0 0; }
 	.user_availability_section .main_title .project_title { width: 300px; }
 	.user_availability_section .main_title .time { width: calc(100% - 300px); }
 	.user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list { width: 300px; }
@@ -1204,6 +1213,7 @@
 	.timmer_box .right_part .spend_time p { font-size: 18px; }
 	.timmer_box .right_part .spend_time p a { font-size: 14px; height: 40px; }
 	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
 	.user_report_title_sec .title h3 { height: 34px; font-size: 18px; }
 	.user_report_title_sec .input-row { gap: 16px; }
 	.user_report_title_sec .input-row .calander { max-width: 140px; }
@@ -1325,7 +1335,7 @@
 
 	.user_availability_section { padding: 0 24px 26px 24px; }
 	.user_availability_section .user_view_report { display: none; }
-	.mobile_user_view_report { display: block; padding: 60px 0 0 0; }
+	.mobile_user_view_report { display: block; padding: 40px 0 0 0; }
 	.mobile_user_view_report .user_availability_list { max-height: 1000px; }
 	.mobile_user_view_report .user_availability_list .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
 	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list { flex-direction: column; align-items: flex-start; }
@@ -1401,6 +1411,17 @@
 	.master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
 
 	/* ========== Manager_Report Page Style: End ========== */
+
+	/* ================================================== Dark Mode Style: Start ================================================== */
+
+	/* Manager_User_Availability Page Dark Mode Css: Start */
+
+	.dark-mode .mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list span { color: var(--dark-primary-white-text); }
+	.dark-mode .mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list span { color: var(--dark-primary-white-text); }
+
+	/* Manager_User_Availability Page Dark Mode Css: End */
+
+	/* ================================================== Dark Mode Style: End ================================================== */
 }
 
 @media (max-width: 991px) {
@@ -1640,7 +1661,7 @@
 	.timmer_box .right_part .spend_time p a { font-size: 14px; height: 40px; }
 	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
 	.user_report_title_sec { padding: 0 16px 24px 16px; align-items: center; }
-	.user_report_title_sec .title { position: relative; left: 0; transform: translate(0); }
+	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
 	.user_report_title_sec .title h3 { height: 30px; font-size: 16px; }
 	.user_view_report { display: none; }
 	.user_mobile_view_report { display: block; padding: 0 16px 20px 16px; }
@@ -1772,7 +1793,7 @@
 	/* ========== Manager_User_Availability Pages Style: Start ========== */
 
 	.user_availability_section { padding: 0 16px 26px 16px; }
-	.mobile_user_view_report { display: block; padding: 60px 0 0 0; }
+	.mobile_user_view_report { display: block; padding: 40px 0 0 0; }
 	.mobile_user_view_report .user_availability_list { max-height: 1000px; }
 	.mobile_user_view_report .user_availability_list .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
 	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list { flex-direction: column; align-items: flex-start; }
@@ -1860,6 +1881,13 @@
 	.dark-mode .user_mobile_view_report .mobile_task_list + .mobile_task_list { border-top-color: var(--stroke-rgba-10); }
 
 	/* Manager_Project_Task_Listing Page Dark Mode Css: End */
+
+	/* Manager_User_Availability Page Dark Mode Css: Start */
+
+	.dark-mode .mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list span { color: var(--dark-primary-white-text); }
+	.dark-mode .mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list span { color: var(--dark-primary-white-text); }
+
+	/* Manager_User_Availability Page Dark Mode Css: End */
 
 	/* ================================================== Dark Mode Style: End ================================================== */
 }

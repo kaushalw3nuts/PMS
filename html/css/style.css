@@ -1414,12 +1414,15 @@ p { margin: 0; padding: 0; }
 
 /* Manager_Task Page Dark Mode Css: End */
 
-/* Manager_User_Availability Page Dark Mode Css: End */
+/* Manager_User_Availability Page Dark Mode Css: Start */
 
 .dark-mode .table_data tbody tr td .user_name_box .dark_pink_team_bg { background: var(--light-pink) !important; }
 .dark-mode .table_data tbody tr td .user_name_box .dark_pink_team_bg i { background: var(--dark-pink) !important; }
 .dark-mode .overdue_active .leave_user_name .mobile_table_discription p { background: var(--light-pink) !important; }
 .dark-mode .overdue_active .leave_user_name .mobile_table_discription p i { background: var(--dark-pink) !important; }
+.dark-mode .user_report_title_sec .title h3 { color: var(--dark-primary-white-text); }
+.dark-mode .user_availability_section .main_title .project_title { color: var(--dark-primary-white-text); }
+.dark-mode .user_availability_section .main_title .time { color: var(--dark-primary-white-text); }
 
 /* Manager_User_Availability Page Dark Mode Css: End */
 
