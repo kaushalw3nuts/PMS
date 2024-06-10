@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/HELVETICA.eot');
+    src: url('../fonts/HELVETICA.eot') format('embedded-opentype'),
+         url('../fonts/HELVETICA.woff2') format('woff2'),
+         url('../fonts/HELVETICA.woff') format('woff'),
+         url('../fonts/HELVETICA.ttf') format('truetype'),
+         url('../fonts/HELVETICA.svg#HELVETICA') format('svg');
+}
+
+@font-face {
+    font-family: 'Helvetica_medium';
+    src: url('../fonts/HELVETICA_MEDIUM.eot');
+    src: url('../fonts/HELVETICA_MEDIUM.eot') format('embedded-opentype'),
+         url('../fonts/HELVETICA_MEDIUM.woff2') format('woff2'),
+         url('../fonts/HELVETICA_MEDIUM.woff') format('woff'),
+         url('../fonts/HELVETICA_MEDIUM.ttf') format('truetype'),
+         url('../fonts/HELVETICA_MEDIUM.svg#HELVETICA_MEDIUM') format('svg');
+}
+
+@font-face {
+    font-family: 'Helvetica_bold';
+    src: url('../fonts/HELVETICABOLD.eot');
+    src: url('../fonts/HELVETICABOLD.eot') format('embedded-opentype'),
+         url('../fonts/HELVETICABOLD.woff2') format('woff2'),
+         url('../fonts/HELVETICABOLD.woff') format('woff'),
+         url('../fonts/HELVETICABOLD.ttf') format('truetype'),
+         url('../fonts/HELVETICABOLD.svg#HELVETICABOLD') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLT Pro 65 Md';
+    src: url('KarlosVideoArchivesFont.eot');
+    src: url('KarlosVideoArchivesFont.eot?#iefix') format('embedded-opentype'),
+        url('KarlosVideoArchivesFont.woff2') format('woff2'),
+        url('KarlosVideoArchivesFont.woff') format('woff'),
+        url('KarlosVideoArchivesFont.ttf') format('truetype'),
+        url('KarlosVideoArchivesFont.svg#Karlo\'sVideoArchivesFont') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

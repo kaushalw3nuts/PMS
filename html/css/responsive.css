@@ -1,0 +1,1865 @@
+
+@media (min-width: 1701px) {
+	
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.navbar-inverse .right_part .theme_box .theme_wrap span { font-size: 14px; }
+	.notify_dropdon { min-width: 320px; transform: translate(30%, 20px); }
+	.open_dropdown .notify_dropdon { transform: translate(30%, 0); }
+	.notify_dropdon .notify_title { margin: 16px 22px 0 14px; padding-bottom: 10px; }
+	.notify_dropdon .notify_title span { font-size: 18px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user { height: 24px; width: 24px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user .user_name { height: 20px; width: 20px; font-size: 8px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .user_info { font-size: 14px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption p,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i { font-size: 13px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i { max-width: 100px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span::after { top: 5px; }
+	.notify_dropdon .view_btn a { font-size: 16px; }
+	.profile_box .dropdown .custom_user .user_text { gap: 4px; }
+	.profile_box .dropdown .custom_user .user_text p { font-size: 14px; }
+	.profile_box .dropdown .custom_user_list { width: 110px; margin: 0; }
+	.profile_box .dropdown .custom_user_list ul li a { font-size: 14px; gap: 6px; }
+	.profile_box .dropdown .custom_user_list ul li a i { height: 15px; width: 15px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 20px; }
+	.current_task_box .left_part .time-box { gap: 15px; }
+	.current_task_box .left_part .time-box .icon { height: 32px; width: 32px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .right_part .spend_time p { font-size: 18px; }
+	.current_task_box .right_part .spend_time p .total_time { font-size: 18px; }
+	.current_task_box .right_part .spend_time p a { height: 32px; width: 32px; margin-left: 10px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 16px; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.user_project_listing_offcanvas_section { width: 500px; }
+	.user_project_listing_offcanvas_section .offcanvas-header .offcanvas-title { font-size: 18px; }
+	.offcanvas-body .assign_section h6 { font-size: 18px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper p { font-size: 16px; }
+	.offcanvas-body .assign_section .assign_box .assign_by p { font-size: 16px; }
+	.offcanvas-body .assign_section .assign_box .assign_by::after { top: 6px; }
+	.offcanvas-body .categorie_section .title h6 { font-size: 18px; }
+	.offcanvas-body .project_description_section .title h6 { font-size: 18px; }
+	.offcanvas-body .project_description_section .description p { font-size: 16px; }
+	.offcanvas-body .attach_file_section { max-width: 430px; }
+	.offcanvas-body .attach_file_section .title h6 { font-size: 18px; }
+	.project_detail_offcanvas .offcanvas-body .assign_section .assign_box .assign_date p { font-size: 16px; }
+	.project_detail_offcanvas .offcanvas-body .assign_section .assign_box .assign_date::after { top: 6px; }
+	.attache_file_list a { font-size: 18px; }
+	.attache_file_list a i { height: 20px; width: 20px; }
+	.offcanvas-body .project_description_section .description ul li { font-size: 16px; }
+	.offcanvas-body .project_description_section .description ol li { font-size: 16px; }
+	.offcanvas-body .project_description_section .description ol li::after { top: 9px; }
+	.offcanvas-body .project_description_section .description a { font-size: 16px; }
+	.date-time-box .add_estimated_time_box .title h6 { font-size: 18px; }
+	.date-time-box .add_estimated_time_box .input-row .form-label { font-size: 16px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .form-control { height: 36px; font-size: 16px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .form-control::placeholder { font-size: 16px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .btnbox { top: 4px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .btnbox .primary-btn { height: 28px; font-size: 16px; }
+	.offcanvas-body .comment_section .title h6 { font-size: 18px; }
+	.comment_section .input-row .comment-block .form-control { height: 42px; padding: 0 16px 0 44px; font-size: 16px; }
+	.comment_section .input-row .comment-block .form-control::placeholder { font-size: 16px; }
+	.comment_section .input-row .comment-block .pic_box { height: 30px; width: 30px; }
+	.comment_section .input-row .comment-block .btnbox { height: 30px; width: 30px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== Manager_Dashboard Page Style: Start ========== */
+
+	.manager_leave_box .right_part .name_box { height: 32px; width: 32px; }
+
+	/* ========== Manager_Dashboard Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+
+	.project_task_table_scroll .table_data tbody tr td .title { max-width: 120px; }
+	.project_task_table_scroll .table_data tbody tr td .user_name_box .user_name { max-width: 70px; }
+	.project_detail_description .comment_section .comments-list .comment_content .icon { height: 28px; min-width: 28px; max-width: 28px; }
+	.project_detail_description .comment_section .comments-list .comment_content .icon span { height: 24px; width: 24px; font-size: 10px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: none; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+	
+	/* ========== Login Page Style: Start ========== */
+
+	.login-form-box { margin: -300px auto 0 auto; max-width: 500px; }
+	.login-page .login-bg { height: 415px; }
+	.login-form-box .form-box-wrap { margin-top: 30px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 36px; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.navbar-wrapper { width: calc(100% - 344px); }
+	.navbar-inverse .right_part .theme_box .theme_wrap span { font-size: 14px; }
+	.notify_dropdon { min-width: 300px; }
+	.notify_dropdon .notify_title { margin: 16px 22px 0 14px; padding-bottom: 10px; }
+	.notify_dropdon .notify_title span { font-size: 18px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user { height: 24px; width: 24px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user .user_name { height: 20px; width: 20px; font-size: 8px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .user_info,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption p,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i { font-size: 13px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span::after { top: 4px; }
+	.notify_dropdon .view_btn a { font-size: 16px; }
+	.profile_box .dropdown .custom_user .user_text { gap: 4px; }
+	.profile_box .dropdown .custom_user .user_text p { font-size: 14px; }
+	.profile_box .dropdown .custom_user_list { width: 110px; margin: 0; }
+	.profile_box .dropdown .custom_user_list ul li a { font-size: 14px; gap: 6px; }
+	.profile_box .dropdown .custom_user_list ul li a i { height: 15px; width: 15px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 18px; }
+	.current_task_box .left_part .time-box .icon { height: 24px; width: 24px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .right_part .spend_time p a { height: 22px; width: 22px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 14px; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.user_project_listing_offcanvas_section { width: 500px; }
+	.user_project_listing_offcanvas_section .offcanvas-header .offcanvas-title { font-size: 18px; }
+	.offcanvas-body .assign_section h6 { font-size: 18px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper p { font-size: 16px; }
+	.offcanvas-body .assign_section .assign_box .assign_by p { font-size: 16px; }
+	.offcanvas-body .assign_section .assign_box .assign_by::after { top: 6px; }
+	.offcanvas-body .categorie_section .title h6 { font-size: 18px; }
+	.offcanvas-body .project_description_section .title h6 { font-size: 18px; }
+	.offcanvas-body .project_description_section .description p { font-size: 16px; }
+	.offcanvas-body .attach_file_section { max-width: 430px; }
+	.offcanvas-body .attach_file_section .title h6 { font-size: 18px; }
+	.attache_file_list a { font-size: 18px; }
+	.attache_file_list a i { height: 20px; width: 20px; }
+	.offcanvas-body .project_description_section .description ul li { font-size: 16px; }
+	.offcanvas-body .project_description_section .description ol li { font-size: 16px; }
+	.offcanvas-body .project_description_section .description ol li::after { top: 9px; }
+	.offcanvas-body .project_description_section .description a { font-size: 16px; }
+	.date-time-box .add_estimated_time_box .title h6 { font-size: 18px; }
+	.date-time-box .add_estimated_time_box .input-row .form-label { font-size: 16px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .form-control { height: 36px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .btnbox { top: 4px; }
+	.date-time-box .add_estimated_time_box .input-row .time-section .btnbox .primary-btn { height: 28px; font-size: 16px; }
+	.offcanvas-body .comment_section .title h6 { font-size: 18px; }
+	.comment_section .input-row .comment-block .form-control { height: 42px; padding: 0 16px 0 44px; }
+	.comment_section .input-row .comment-block .pic_box { height: 30px; width: 30px; }
+	.comment_section .input-row .comment-block .btnbox { height: 30px; width: 30px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+
+	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 78px - 400px - 140px); }
+	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 400px; }
+	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 400px - 140px); }
+	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 400px; }
+	.project_detail_description .comment_section .comments-list .comment_content .icon { height: 28px; min-width: 28px; max-width: 28px; }
+	.project_detail_description .comment_section .comments-list .comment_content .icon span { height: 24px; width: 24px; font-size: 10px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: none; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+	/* ========== Login Page Style: Start ========== */
+
+	.login-form-box { max-width: 452px; padding: 30px 26px; margin: -240px auto 0 auto; }
+	.login-page .login-bg { height: 374px; }
+	.login-form-box p { font-size: 16px; }
+	.login-form-box .form-box-wrap { margin-top: 30px; }
+	.login-form-box .form-box-wrap .input-row .form-label { font-size: 14px; }
+	.login-form-box .form-box-wrap .rem-pass-box .form-switch label { font-size: 14px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 36px; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.navbar-wrapper { width: calc(100% - 344px); }
+	.current_task_box .left_part .time-box { gap: 6px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 18px; }
+	.current_task_box .left_part .time-box .icon { height: 24px; width: 24px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .right_part .spend_time p a { height: 22px; width: 22px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 14px; }
+	.project_detail_offcanvas .offcanvas-header { gap: 10px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section { gap: 6px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section .timmer_count { font-size: 18px; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Report Page Style: Start ========== */
+
+	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 78px - 350px - 140px); }
+	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 350px; }
+	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 350px - 140px); }
+	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 350px; }
+
+	/* ========== User_Report Page Style: End ========== */
+
+	/* ========== Profile Page Style: Start ========== */
+
+	.user_detail_section .bg_logo_box { max-width: 200px; }
+
+	/* ========== Profile Page Style: End ========== */
+}
+
+@media (min-width: 1301px) and (max-width: 1399px) {
+
+	/* ========== Login Page Style: Start ========== */
+
+	.login-form-box { max-width: 450px; padding: 30px 26px; margin: -220px auto 0 auto; }
+	.login-page .login-bg { height: 350px; }
+	.login-form-box p { font-size: 16px; }
+	.login-form-box .form-box-wrap { margin-top: 30px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 40px; }
+	.login-page .copy-right { padding: 20px 0; }
+	.login-form-box .form-box-wrap .rem-pass-box .forgot { font-size: 14px; }
+	.login-form-box .form-box-wrap .input-row .form-label { font-size: 14px; }
+	.login-form-box .form-box-wrap .rem-pass-box .form-switch label { font-size: 14px; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.sidebar-wrapper { width: 240px; }
+	.sidebar_section { padding-left: 260px; }
+	.sidebar-wrapper .top_sidebar .open-sidebar-logo { max-width: 130px; margin: 16px auto 36px auto; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav { padding: 20px 0; margin: 0 20px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { height: 40px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn .icon-sec { height: 22px; width: 22px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn span { font-size: 16px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li + li { margin-top: 14px; }
+	.toggled .primary-btn span { font-size: 0 !important; }
+	.sidebar-wrapper .bottom_sidebar { padding: 20px 10px 18px 16px; }
+	.sidebar-wrapper .bottom_sidebar .full_title { font-size: 15px; }
+	.sidebar-wrapper .bottom_sidebar ul li { font-size: 13px; }
+	.sidebar-wrapper .bottom_sidebar ul li::after { top: 4px; }
+	.navbar-wrapper { width: calc(100% - 320px); }
+	.navbar-inverse .right_part .theme_box .theme_wrap { padding: 6px 20px; }
+	.navbar-inverse .right_part .theme_box .theme_wrap span { font-size: 13px; }
+	.notify_dropdon .notify_title { margin: 16px 22px 0 14px; padding-bottom: 10px; }
+	.notify_dropdon .notify_title span { font-size: 17px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user { height: 24px; width: 24px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user .user_name { height: 20px; width: 20px; font-size: 8px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .user_info,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption p,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i { font-size: 13px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span::after { top: 4px; }
+	.notify_dropdon .view_btn a { font-size: 15px; }
+	.profile_box .dropdown .custom_user .user_text { gap: 4px; }
+	.profile_box .dropdown .custom_user .user_text p { font-size: 13px; }
+	.profile_box .dropdown .custom_user_list { width: 100px; }
+	.profile_box .dropdown .custom_user_list ul li a { font-size: 14px; gap: 4px; }
+	.profile_box .dropdown .custom_user_list ul li a i { height: 15px; width: 15px; }
+	.title_section { margin-bottom: 28px; }
+	.title_section h3 { font-size: 22px; }
+	.row { margin: 0 -14px; }
+	.row>* { padding: 0 14px; }
+	.dashboard_row .row { row-gap: 28px; }
+	.task_box { padding: 22px 14px 22px 22px; }
+	.task_box h2 { font-size: 28px; margin-bottom: 24px; }
+	.current_task_box .left_part .time-box { gap: 6px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 18px; }
+	.current_task_box .left_part .time-box .icon { height: 24px; width: 24px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .right_part .spend_time p,
+	.current_task_box .right_part .spend_time p .total_time { font-size: 15px; }
+	.current_task_box .right_part .spend_time p a { height: 22px; width: 22px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 14px; }
+	.leave_box .right_part .date_box p { font-size: 15px; }
+	.leave_box .left_part .img_box { max-width: 24px; }
+	.task-listing { margin-top: 28px; }
+	.title_block { padding: 14px 18px 24px 24px; gap: 26px; }
+	.title_block h3 { font-size: 22px; }
+	.table_data thead tr th { font-size: 15px; }
+	.table_data tbody tr td { font-size: 15px; }
+	.table_data tbody tr td .play_push_icon { height: 22px; width: 22px; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.table_data tbody tr td .project-title .project_name { font-size: 15px; }
+	.user_project_listing_offcanvas_section .offcanvas-header { padding: 24px 24px 28px 24px; }
+	.user_project_listing_offcanvas_section .offcanvas-body { padding: 0 20px 24px 24px; }
+	.offcanvas-body .categorie_section { padding: 22px 0; }
+	.offcanvas-body .project_description_section { padding: 22px 0; }
+	.offcanvas-body .attach_file_section { padding: 22px 0 0 0; }
+	.attache_file_list a { font-size: 16px; }
+	.attache_file_list a i { height: 18px; width: 18px; }
+	.project_title_box span { font-size: 14px; }
+	.project_title_box h3 { font-size: 22px; }
+	.caption_wrapper .left_part span { font-size: 14px; }
+	.caption_wrapper .left_part h3 { font-size: 22px; }
+	.caption_wrapper .right_part h3 { font-size: 22px; }
+	.caption_wrapper .right_part span { font-size: 14px; }
+	.project_tab_section .nav { margin: 28px 0 24px 0; }
+	.project_tab_section .nav .nav-item .nav-link { font-size: 16px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section { gap: 6px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section .timmer_count { font-size: 18px; }
+	.project_detail_offcanvas .offcanvas-header .button_text { gap: 20px; }
+	.project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn { height: 42px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn { height: 30px; width: 30px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn span { max-width: 12px; }
+	.comments-list .commentbox-wrap .sub-commentbox { padding-left: 40px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== User_Leaves Page Style: Start ========== */
+
+	.leave_report_box .btn_wrap { height: 40px; }
+	.table_data tbody tr td .user_name_box { gap: 6px; }
+	.table_data tbody tr td .user_name_box .user_icon { height: 28px; width: 28px; }
+	.table_data tbody tr td .user_name_box .user_icon i { height: 24px; width: 24px; }
+	.table_data tbody tr td .user_name_box .user_name { font-size: 14px; }
+	.table_data tbody tr td .leave_date_box .date { font-size: 14px; }
+	.table_data tbody tr td .reason_box { font-size: 14px; max-width: 210px; }
+	.table_data tbody tr td .leave_type .type { font-size: 14px; }
+	.leave_modal_section .modal-dialog .modal-content { padding: 28px 28px 26px 28px; }
+	.leave_modal_section .modal-content .modal-header { margin-bottom: 30px; }
+	.fromto_box { margin: 20px 0; }
+	.leave_modal_section .modal-content .modal-body .input-row + .input-row { margin-top: 20px; }
+
+	/* ========== User_Leaves Page Style: End ========== */
+
+	/* ========== User_Report Page Style: Start ========== */
+
+	.timmer_box .left_part a { font-size: 22px; }
+	.timmer_box .left_part a span { height: 28px; width: 28px; }
+	.timmer_box .left_part a span i { max-width: 10px; }
+	.timmer_box .right_part .spend_time p { font-size: 20px; }
+	.timmer_box .right_part .spend_time p a { height: 44px; }
+	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title h3 { height: 42px; }
+	.user_report_title_sec .input-row { gap: 18px; }
+	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 78px - 250px - 140px); }
+	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 250px; }
+	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 250px - 140px); }
+	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 250px; }
+
+	/* ========== User_Report Page Style: End ========== */
+
+	/* ========== Notification Page Style: Start ========== */
+
+	.notification_box .notify_sec { gap: 30px; }
+	.notification_box .notify_sec .left_box .user_icon { height: 30px; width: 30px; }
+	.notification_box .notify_sec .left_box .user_content { max-width: 650px; }
+	.notification_box .notify_sec .left_box .user_content .top_box h6 { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .top_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box span { font-size: 14px; max-width: 460px; }
+	.notification_listsection .load_more_btn { margin-top: 40px; }
+	.notification_listsection .load_more_btn .btn_wrap { height: 44px; }
+
+	/* ========== Notification Page Style: End ========== */
+
+	/* ========== Profile Page Style: Start ========== */
+
+	.user_detail_section .bg_logo_box { max-width: 200px; }
+	.user_detail_section .change_password_box .btnbox .primary-btn { height: 44px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box { right: 14px; top: 14px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box .icon { height: 22px; width: 22px; }
+
+	/* ========== Profile Page Style: End ========== */
+
+	/* ========== Manager_Dashboard Page Style: Start ========== */
+
+	.show_entry_sec .pagination .page-item .page-link { height: 38px; width: 38px; }
+	.show_entry_sec .pagination .page-item .page-link span { width: 22px; height: 22px; }
+
+	/* ========== Manager_Dashboard Page Style: End ========== */
+
+	/* ========== Manager_Projects Page Style: Start ========== */
+
+	.leave_modal_section_box .modal-dialog .modal-content { padding: 28px 28px 26px 28px; }
+	.leave_modal_section_box .modal-content .modal-header { margin-bottom: 30px; }
+	.leave_modal_section_box .modal-content .modal-body .input-row + .input-row { margin-top: 20px; }
+
+	/* ========== Manager_Projects Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+	
+	.project_task_main_box { padding: 22px; }
+	.project_task_listing_box_section { margin: 26px 0 24px 0; }
+	.project_task_listing_box_section .nav { margin: 0; }
+	.project_task_table_scroll .table_data tbody tr td .title { max-width: 80px; }
+	.project_task_table_scroll .table_data tbody tr td .leave_type { max-width: 64px; }
+	.filter_search_section .filter_section { height: 50px; margin-right: 20px; }
+	.filter_search_section .filter_section .filter_icon { padding: 0 20px; }
+	.filter_search_section .filter_section .filter_icon .img_icon { height: 22px; }
+	.filter_search_section .filter_section .from-filter-date { padding: 0 20px 0 18px; }
+	.filter_search_section .filter_section .to-filter-date .fill_to_date { min-width: 110px; }
+	.project_time_report_section { padding: 22px 0 6px 0; }
+	.project_time_report_section .sub_title { padding: 0 40px 16px 24px; }
+	.project_time_report_section .entry_box { padding: 16px 40px 16px 24px; }
+	.project_detail_description { padding: 30px 30px 28px 30px; }
+	.project_detail_description h3 { font-size: 22px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: 870px; }
+	.manager_project_offcanvas .offcanvas-header .button_text .btn-close { margin-right: 14px; }
+	.manager_project_offcanvas .offcanvas-header .btn_box .task_btn { height: 42px; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+
+	/* ========== Manager_Task Page Style: Start ========== */
+
+	.manager_task_listing { margin: 0 0 0 0; }
+	.manager_project_offcanvas .offcanvas-header .btn_box a + a { margin-left: 12px; }
+
+	/* ========== Manager_Task Page Style: End ========== */
+
+	/* ========== Manager_User_Availability Pages Style: Start ========== */
+
+	.user_availability_section .user_view_report { padding: 80px 0 0 0; }
+	.user_no_availability_section { margin: 0; }
+	.user_no_task_scetion .user_no_task_wrap { margin: 90px auto 80px auto; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .no_task_img { max-width: 230px; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .text-wrap { margin-top: 30px; }
+
+	/* ========== Manager_User_Availability Pages Style: End ========== */
+
+	/* ========== Manager_Report Pages Style: Start ========== */
+
+	.master_report_main_title .user_report_accordion .accordion-body ul li { padding: 0 24px 0 22px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul .title_wrapper .inner_project_title { min-width: 260px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul .title_wrapper .inner_date_title { width: calc((100% / 7) - 260px); }
+	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_name { min-width: 260px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_time { width: calc((100% / 7) - 260px); }
+
+	/* ========== Manager_Report Pages Style: Start ========== */
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+	/* ========== Login Page Style: Start ========== */
+
+	.login-page .login-section { padding: 36px 36px 0 36px; }
+	.login-page .login-bg { height: 332px; }
+	.login-form-box { margin: -190px auto 0 auto; max-width: 430px; padding: 30px 26px; }
+	.login-form-box .form-box-wrap .input-row .form-control { padding: 0 40px 0 42px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 36px; }
+	.login-page .copy-right { padding: 20px 0; }
+	.login-form-box .form-box-wrap .rem-pass-box .forgot { font-size: 14px; }
+	.login-form-box .form-box-wrap { margin-top: 30px; }
+	.login-form-box p { font-size: 16px; }
+	.login-form-box .form-box-wrap .input-row .form-label { font-size: 14px; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.sidebar-wrapper { width: 220px; }
+	.sidebar_section { padding-left: 240px; }
+	.sidebar-wrapper .top_sidebar .open-sidebar-logo { max-width: 126px; margin: 16px auto 30px auto; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav { padding: 20px 0; margin: 0 16px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { height: 40px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn .icon-sec { height: 22px; width: 22px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn span { font-size: 16px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li + li { margin-top: 12px; }
+	.toggled .primary-btn span { font-size: 0 !important; }
+	.sidebar-wrapper .bottom_sidebar { padding: 20px 10px 18px 14px; }
+	.sidebar-wrapper .bottom_sidebar .full_title { font-size: 15px; }
+	.sidebar-wrapper .bottom_sidebar ul li { font-size: 12px; }
+	.sidebar-wrapper .bottom_sidebar ul li::after { top: 4px; }
+	.navbar-wrapper { width: calc(100% - 300px); }
+	.toggled .navbar-wrapper { width: calc(100% - 178px); }
+	.navbar-inverse .right_part .theme_box .theme_wrap span { font-size: 14px; }
+	.navbar-inverse .right_part .theme_box .theme_wrap { padding: 6px 20px; }
+	.notify_dropdon { transform: translate(30%, 20px); }
+	.open_dropdown .notify_dropdon { transform: translate(30%, 0); }
+	.notify_dropdon .notify_title { margin: 16px 22px 0 14px; padding-bottom: 10px; }
+	.notify_dropdon .notify_title span { font-size: 18px; }
+	.notify_dropdon .notify_list { margin: 16px 8px 0 14px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user { height: 28px; width: 28px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user .user_name { height: 20px; width: 20px; font-size: 8px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .user_info,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption p,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i { font-size: 13px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span::after { top: 5px; }
+	.notify_dropdon .notify_list .notify_item .time-block { font-size: 10px; }
+	.notify_dropdon .view_btn a { font-size: 15px; }
+	.profile_box .dropdown .custom_user .user_text { gap: 5px; }
+	.profile_box .dropdown .custom_user .user_text p { font-size: 14px; }
+	.profile_box .dropdown .custom_user_list { width: 100px; }
+	.profile_box .dropdown .custom_user_list ul li a { font-size: 14px; gap: 6px; }
+	.profile_box .dropdown .custom_user_list ul li a i { height: 16px; width: 16px; }
+	.content_wrapper { padding-top: 90px; }
+	.title_section { margin-bottom: 24px; }
+	.title_section h3 { font-size: 20px; }
+	.row { margin: 0 -12px; }
+	.row>* { padding: 0 12px; }
+	.dashboard_row .row { row-gap: 24px; }
+	.task_box { padding: 20px 14px 20px 20px; }
+	.current_task_box .left_part h6 { font-size: 15px; }
+	.current_task_box .left_part .time-box { gap: 10px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 18px; }
+	.current_task_box .left_part .time-box .icon { height: 24px; width: 24px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .right_part p,
+	.current_task_box .right_part p span { font-size: 15px; }
+	.current_task_box .right_part .spend_time p a { height: 24px; width: 24px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 15px; }
+	.task_box h2 { font-size: 28px; margin-bottom: 24px; }
+	.task_box p { font-size: 15px; }
+	.leave_box .left_part h6 { font-size: 15px; }
+	.leave_box .left_part .img_box { max-width: 24px; }
+	.leave_box .right_part .date_box p { font-size: 15px; }
+	.task-listing { margin-top: 24px; }
+	.title_block { padding: 14px 18px 24px 24px; gap: 26px; }
+	.title_block h3 { font-size: 20px; }
+	.table_data thead tr th { font-size: 15px; }
+	.table_data tbody tr td { font-size: 15px; }
+	.table_data tbody tr td .play_push_icon { height: 20px; width: 20px; }
+	.table_data tbody tr td .play_push_icon i { max-width: 6px; }
+	.table_info_section { padding: 16px 20px 18px 24px; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.table_data tbody tr td .project-title .project_name { font-size: 15px; }
+	.user_project_listing_offcanvas_section { width: 370px; }
+	.user_project_listing_offcanvas_section .offcanvas-header { padding: 24px 24px 28px 24px; }
+	.user_project_listing_offcanvas_section .offcanvas-body { padding: 0 20px 24px 24px; }
+	.offcanvas-body .categorie_section { padding: 22px 0; }
+	.offcanvas-body .project_description_section { padding: 22px 0; }
+	.offcanvas-body .attach_file_section { padding: 22px 0 0 0; }
+	.attache_file_list a { font-size: 16px; }
+	.attache_file_list a i { height: 18px; width: 18px; }
+	.project_title_box span { font-size: 14px; }
+	.project_title_box h3 { font-size: 22px; }
+	.caption_wrapper .left_part span { font-size: 14px; }
+	.caption_wrapper .left_part h3 { font-size: 22px; }
+	.caption_wrapper .right_part h3 { font-size: 22px; }
+	.caption_wrapper .right_part span { font-size: 14px; }
+	.project_tab_section .nav { margin: 26px 0 24px 0; overflow-x: auto; white-space: nowrap; }
+	.project_tab_section .nav .nav-item .nav-link { font-size: 16px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section { gap: 6px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section .timmer_count { font-size: 18px; }
+	.project_detail_offcanvas .offcanvas-header .button_text { gap: 20px; }
+	.project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn { height: 42px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn { height: 28px; width: 28px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn span { max-width: 12px; }
+	.offcanvas-body .assign_section .assign_box { gap: 14px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box { height: 30px; width: 30px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box i { max-width: 18px; }
+	.offcanvas-body .assign_section .assign_box .assign_by::after { left: -8px; }
+	.offcanvas-body .assign_section .assign_box .assign_date::after { left: -8px; }
+	.offcanvas-body .date-time-box li .time_box .add_text::after { height: 12px; width: 12px; left: -10px; }
+	.date-time-box .add_estimated_time_box .title { margin-bottom: 16px; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb { height: 32px; width: 32px; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb i { max-width: 22px; }
+	.comments-list .commentbox-wrap .commentbox .comment-content { width: calc(100% - 32px); }
+	.comments-list .commentbox-wrap .commentbox .comment-title { gap: 6px; }
+	.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .comment-text { font-size: 14px; }
+	.comments-list .commentbox-wrap .sub-commentbox { padding-left: 30px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== User_Leaves Page Style: Start ========== */
+
+	.leave_report_box h3 { font-size: 22px; }
+	.leave_report_box .btn_wrap { height: 40px; }
+	.table_data tbody tr td .user_name_box { gap: 6px; }
+	.table_data tbody tr td .user_name_box .user_icon { height: 28px; width: 28px; }
+	.table_data tbody tr td .user_name_box .user_icon i { height: 22px; width: 22px; }
+	.table_data tbody tr td .user_name_box .user_name { font-size: 14px; }
+	.table_data tbody tr td .leave_date_box .date { font-size: 14px; }
+	.table_data tbody tr td .reason_box { font-size: 14px; max-width: 200px; }
+	.table_data tbody tr td .leave_type .type { font-size: 14px; }
+	.leave_tab_section .table_data tbody tr td .edit_delete_block { gap: 4px; }
+	.leave_modal_section .modal-dialog .modal-content { padding: 28px 28px 26px 28px; }
+	.leave_modal_section .modal-content .modal-header { margin-bottom: 30px; }
+	.fromto_box { margin: 18px 0; }
+	.leave_modal_section .modal-content .modal-body .input-row + .input-row { margin-top: 18px; }
+
+	/* ========== User_Leaves Page Style: End ========== */
+
+	/* ========== User_Report Page Style: Start ========== */
+
+	.timmer_box .left_part a { font-size: 22px; }
+	.timmer_box .left_part a span { height: 28px; width: 28px; }
+	.timmer_box .left_part a span i { max-width: 10px; }
+	.timmer_box .right_part .spend_time p { font-size: 20px; }
+	.timmer_box .right_part .spend_time p a { height: 42px; }
+	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title h3 { height: 42px; }
+	.user_report_title_sec .input-row { gap: 18px; }
+	.user_report_accordion .accordion-body .sub_title .time { text-align: right; }
+	.user_report_accordion .accordion-body .entry_box .time { text-align: right; }
+	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 78px - 200px - 140px); }
+	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 200px; text-align: left; }
+	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 200px - 140px); }
+	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 200px; text-align: left; }
+
+	/* ========== User_Report Page Style: End ========== */
+
+	/* ========== Notification Page Style: Start ========== */
+
+	.notification_box .notify_sec { gap: 30px; }
+	.notification_box .notify_sec .left_box .user_icon { height: 28px; width: 28px; }
+	.notification_box .notify_sec .left_box .user_icon span { height: 24px; width: 24px; font-size: 10px; }
+	.notification_box .notify_sec .left_box .user_content { max-width: 600px; }
+	.notification_box .notify_sec .left_box .user_content .top_box h6 { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .top_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box span { font-size: 14px; max-width: 400px; }
+	.notification_listsection .load_more_btn { margin-top: 36px; }
+	.notification_listsection .load_more_btn .btn_wrap { height: 44px; }
+
+	/* ========== Notification Page Style: End ========== */
+
+	/* ========== Profile Page Style: Start ========== */
+
+	.profile_section { padding: 28px; }
+	.user_detail_section { padding: 28px; }
+	.user_detail_section .bg_logo_box { max-width: 180px; }
+	.user_detail_section .change_password_box .btnbox .primary-btn { height: 42px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box { right: 14px; top: 14px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box .icon { height: 22px; width: 22px; }
+	.user_detail_section .change_password_box .input-row .address { height: 140px; }
+
+	/* ========== Profile Page Style: End ========== */
+
+	/* ========== Manager_Dashboard Page Style: Start ========== */
+
+	.manager_leave_box .right_part .name_box span { font-size: 9px; }
+	.name-tooltip .tooltip-inner { font-size: 12px; }
+	.show_entry_sec .pagination { gap: 6px; }
+	.show_entry_sec .pagination .page-item .page-link { height: 36px; width: 36px; }
+	.show_entry_sec .pagination .page-item .page-link span { width: 20px; height: 20px; }
+
+	/* ========== Manager_Dashboard Page Style: End ========== */
+
+	/* ========== Manager_Projects Page Style: Start ========== */
+
+	.leave_modal_section_box .modal-dialog .modal-content { padding: 28px 28px 26px 28px; }
+	.leave_modal_section_box .modal-content .modal-header { margin-bottom: 30px; }
+	.leave_modal_section_box .modal-content .modal-body .input-row + .input-row { margin-top: 18px; }
+
+	/* ========== Manager_Projects Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+	
+	.project_task_main_box { padding: 20px; }
+	.project_task_main_box .right_box h5 { font-size: 16px; }
+	.project_task_listing_box_section { margin: 26px 0 24px 0; }
+	.project_task_listing_box_section .nav { margin: 0; }
+	.project_task_table_scroll .table_data tbody tr td .title { max-width: 70px; }
+	.project_task_table_scroll .table_data tbody tr td .leave_type { max-width: 64px; }
+	.filter_search_section .filter_section { height: 50px; margin: 0 20px 0 0; }
+	.filter_search_section .filter_section .filter_icon { padding: 0 20px; }
+	.filter_search_section .filter_section .filter_icon .img_icon { height: 22px; }
+	.filter_search_section .filter_section .from-filter-date { padding: 0 18px 0 18px; }
+	.filter_search_section .filter_section .to-filter-date .fill_to_date { min-width: 100px; }
+	.project_time_report_section { padding: 20px 0 6px 0; }
+	.project_time_report_section .sub_title { padding: 0 30px 16px 24px; }
+	.project_time_report_section .entry_box { padding: 16px 30px 16px 24px; }
+	.project_detail_description { padding: 28px 28px 28px 28px; }
+	.project_detail_description h3 { font-size: 22px; }
+	.project_detail_description .attach_file_section { margin-top: 16px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: 870px; }
+	.manager_project_offcanvas .offcanvas-header .button_text .btn-close { margin-right: 14px; }
+	.manager_project_offcanvas .offcanvas-header .btn_box .task_btn { height: 42px; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+
+	/* ========== Manager_Task Page Style: Start ========== */
+
+	.manager_task_listing { margin: 0 0 0 0; }
+	.manager_project_offcanvas .offcanvas-header .btn_box a + a { margin-left: 12px; }
+
+	/* ========== Manager_Task Page Style: End ========== */
+
+	/* ========== Manager_User_Availability Pages Style: Start ========== */
+
+	.user_availability_section .user_view_report { padding: 80px 0 0 0; }
+	.user_no_availability_section { margin: 0; }
+	.user_no_task_scetion .user_no_task_wrap { margin: 80px auto; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add { margin: 70px 0; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .no_task_img { max-width: 230px; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .text-wrap { margin-top: 30px; }
+
+	/* ========== Manager_User_Availability Pages Style: End ========== */
+
+	/* ========== Manager_Report Page Style: Start ========== */
+
+	.manager_main_report_title { margin-bottom: 24px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul li { padding: 0 24px 0 22px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul .title_wrapper .inner_project_title { min-width: 240px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul .title_wrapper .inner_date_title { width: calc((100% / 7) - 240px); }
+	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_name { min-width: 240px; }
+	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_time { width: calc((100% / 7) - 240px); }
+	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_name .task_name p { margin-left: 10px; }
+
+	/* ========== Manager_Report Page Style: End ========== */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	/* ========== Login Page Style: Start ========== */
+
+	.login-page .login-section { padding: 36px 36px 0 36px; }
+	.login-page .login-bg { height: 300px; }
+	.login-form-box { margin: -180px auto 0 auto; max-width: 430px; padding: 30px 26px; }
+	.login-form-box .form-box-wrap .input-row .form-control { padding: 0 40px 0 42px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 36px; }
+	.login-page .copy-right { padding: 20px 0; }
+	.login-form-box .form-box-wrap .rem-pass-box .forgot { font-size: 14px; }
+	.login-form-box p { font-size: 16px; }
+	.login-form-box .form-box-wrap .input-row .form-label { font-size: 14px; }
+	.login-form-box .form-box-wrap { margin-top: 30px; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.user-dash { padding: 24px 30px 24px 24px; }
+	.sidebar-wrapper { width: 210px; }
+	.sidebar_section { padding-left: 230px; }
+	.sidebar-wrapper .top_sidebar .open-sidebar-logo { max-width: 120px; margin: 16px auto 20px auto; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav { padding: 18px 0; margin: 0 18px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { height: 40px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn .icon-sec { height: 22px; width: 22px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn span { font-size: 14px; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li + li { margin-top: 10px; }
+	.sidebar-wrapper .bottom_sidebar { padding: 20px 10px 18px 10px; }
+	.sidebar-wrapper .bottom_sidebar .full_title { margin-bottom: 14px; }
+	.sidebar-wrapper .bottom_sidebar ul li { font-size: 10px; padding: 0 0 0 8px; }
+	.sidebar-wrapper .bottom_sidebar ul li::after { top: 4px; }
+	.navbar-wrapper { width: calc(100% - 284px); right: 30px; }
+	.toggled .navbar-wrapper { width: calc(100% - 174px); }
+	.toggled .primary-btn span { font-size: 0 !important; }
+	.navbar-inverse .right_part .theme_box .theme_wrap span { font-size: 14px; }
+	.navbar-inverse .right_part .theme_box .theme_wrap { padding: 6px 20px; }
+	.notify_dropdon .notify_title { margin: 16px 22px 0 14px; padding-bottom: 10px; }
+	.notify_dropdon .notify_title span { font-size: 18px; }
+	.notify_dropdon .notify_title a { font-size: 15px; }
+	.notify_dropdon .notify_list { margin: 16px 8px 0 14px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user { height: 28px; width: 28px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user .user_name { height: 20px; width: 20px; font-size: 9px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .user_info,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption p,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i { font-size: 14px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span::after { top: 6px; }
+	.notify_dropdon .notify_list .notify_item .time-block { font-size: 10px; }
+	.notify_dropdon .view_btn a { font-size: 15px; }
+	.profile_box .dropdown .custom_user .user_text { gap: 5px; }
+	.profile_box .dropdown .custom_user .user_text p { font-size: 14px; }
+	.profile_box .dropdown .custom_user_list { width: 100px; }
+	.profile_box .dropdown .custom_user_list ul li a { font-size: 14px; gap: 6px; }
+	.profile_box .dropdown .custom_user_list ul li a i { height: 16px; width: 16px; }
+	.title_section { margin-bottom: 26px; }
+	.title_section h3 { font-size: 22px; }
+	.row { margin: 0 -11px; }
+	.row>* { padding: 0 11px; }
+	.dashboard_row .box_one { order: 2; }
+	.dashboard_row .box_two { order: 3; }
+	.dashboard_row .box_three { order: 1; }
+	.dashboard_row .box_four { order: 4; }
+	.dashboard_row .box_five { order: 6; }
+	.dashboard_row .box_six { order: 5; }
+	.dashboard_row .box_seven { order: 7; }
+	.dashboard_row .row { row-gap: 20px; }
+	.task_box { padding: 20px; }
+	.current_task_box .left_part h6 { font-size: 18px; }
+	.current_task_box .left_part .time-box { gap: 10px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 18px; }
+	.current_task_box .left_part .time-box .icon { height: 26px; width: 26px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .right_part p,
+	.current_task_box .right_part p span { font-size: 18px; }
+	.current_task_box .right_part .spend_time p,
+	.current_task_box .right_part .spend_time p .total_time { font-size: 16px; }
+	.current_task_box .right_part .spend_time p a { height: 24px; width: 24px; margin-left: 6px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 15px; }
+	.task_box h2 { font-size: 30px; margin-bottom: 24px; }
+	.leave_box { gap: 20px; }
+	.leave_box .left_part h6 { font-size: 18px; }
+	.task-listing { margin-top: 26px; }
+	.title_block { padding: 14px 18px 24px 20px; gap: 24px; }
+	.title_block h3 { font-size: 22px; }
+	.table_data thead tr th:nth-child(1) { padding-left: 20px; }
+	.table_data thead tr th { padding: 0 8px 18px 0px; font-size: 14px; }
+	.table_data tbody tr td { padding: 12px 8px 14px 0; font-size: 14px; }
+	.table_data tbody tr td .play_push_icon { height: 20px; width: 20px; }
+	.table_data tbody tr td .play_push_icon i { max-width: 6px; }
+	.table_info_section { padding: 16px 18px 18px 24px; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.table_data tbody tr td .project-title .project_name { font-size: 14px; }
+	.user_project_listing_offcanvas_section { width: 350px; }
+	.user_project_listing_offcanvas_section .offcanvas-header { padding: 24px 24px 24px 24px; }
+	.user_project_listing_offcanvas_section .offcanvas-body { padding: 0 20px 24px 24px; }
+	.offcanvas-body .categorie_section { padding: 20px 0; }
+	.offcanvas-body .project_description_section { padding: 20px 0; }
+	.offcanvas-body .attach_file_section { padding: 20px 0 0 0; }
+	.dropzone_block .dropzone .dz-message .plus { width: 50px; height: 50px; }
+	.dropzone_block .dropzone .dz-preview .dz-image { width: 50px; height: 50px; }
+	.dropzone_block .dropzone .dz-preview .dz-error-mark { height: 20px; }
+	.attache_file_list a { font-size: 16px; }
+	.attache_file_list a i { height: 18px; width: 18px; }
+	.project_detail_row .box_three { order: 0; }
+	.project_title_box span { font-size: 14px; }
+	.project_title_box h3 { font-size: 22px; }
+	.caption_wrapper .left_part span { font-size: 14px; }
+	.caption_wrapper .left_part h3 { font-size: 22px; }
+	.caption_wrapper .right_part h3 { font-size: 22px; }
+	.caption_wrapper .right_part span { font-size: 14px; }
+	.project_tab_section .nav { margin: 26px 0 24px 0; overflow-x: auto; padding: 16px 14px; white-space: nowrap; }
+	.project_tab_section .nav .nav-item .nav-link { font-size: 16px; }
+	.project_tab_section .nav::-webkit-scrollbar { display: none; }
+	.table_data tbody tr td .title { max-width: 70px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section { gap: 6px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section .timmer_count { font-size: 16px; }
+	.project_detail_offcanvas .offcanvas-header .button_text { gap: 20px; }
+	.project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn { height: 40px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn { height: 28px; width: 28px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn span { max-width: 12px; }
+	.offcanvas-body .assign_section .assign_box { gap: 14px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper { gap: 6px;}
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box { height: 25px; width: 25px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box i { max-width: 18px; }
+	.offcanvas-body .assign_section .assign_box .assign_by::after { left: -8px; }
+	.offcanvas-body .assign_section .assign_box .assign_date::after { left: -8px; }
+	.offcanvas-body .date-time-box li .time_box .add_text::after { height: 12px; width: 12px; left: -10px; }
+	.date-time-box .add_estimated_time_box .title { margin-bottom: 16px; }
+	.comment_section .input-row .comment-block .btnbox .primary-btn { background-size: 12px auto; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb { height: 30px; width: 30px; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb i { max-width: 20px; }
+	.comments-list .commentbox-wrap .commentbox .comment-content { width: calc(100% - 30px); }
+	.comments-list .commentbox-wrap .commentbox .comment-title { gap: 6px; }
+	.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .comment-text { font-size: 14px; }
+	.comments-list .commentbox-wrap .sub-commentbox { padding-left: 30px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== User_Leaves Page Style: Start ========== */
+
+	.leave_report_box .btn_wrap { height: 40px; }
+	.table_data tbody tr td .user_name_box { gap: 4px; }
+	.table_data tbody tr td .user_name_box .user_icon { height: 24px; width: 24px; }
+	.table_data tbody tr td .user_name_box .user_icon i { height: 20px; width: 20px; font-size: 8px; }
+	.table_data tbody tr td .user_name_box .user_name { font-size: 14px; }
+	.table_data tbody tr td .leave_date_box .date { font-size: 13px; }
+	.table_data tbody tr td .leave_date_box .day { height: 18px; font-size: 10px; }
+	.table_data tbody tr td .reason_box { font-size: 14px; max-width: 180px; }
+	.table_data tbody tr td .leave_type .type { font-size: 13px; }
+	.table_data tbody tr td .leave_type .wrapper { height: 18px; font-size: 10px; }
+	.leave_tab_section .table_data tbody tr td .review_tag span { font-size: 12px; }
+	.leave_tab_section .table_data tbody tr td .complete_tag span { font-size: 12px; }
+	.leave_tab_section .table_data tbody tr td .edit_delete_block { gap: 4px; }
+	.leave_modal_section .modal-dialog .modal-content { padding: 26px; }
+	.leave_modal_section .modal-content .modal-header { margin-bottom: 28px; }
+	.fromto_box { margin: 18px 0; }
+	.leave_modal_section .modal-content .modal-body .input-row + .input-row { margin-top: 18px; }
+
+	/* ========== User_Leaves Page Style: End ========== */
+
+	/* ========== User_Report Page Style: Start ========== */
+
+	.timmer_box .left_part a { font-size: 22px; }
+	.timmer_box .left_part a span { height: 28px; width: 28px; }
+	.timmer_box .left_part a span i { max-width: 10px; }
+	.timmer_box .right_part .spend_time p { font-size: 18px; }
+	.timmer_box .right_part .spend_time p a { font-size: 14px; height: 42px; }
+	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title h3 { height: 38px; font-size: 18px; }
+	.user_report_title_sec .input-row { gap: 16px; }
+	.user_report_title_sec .input-row .calander { max-width: 140px; }
+	.user_view_report .main_title { margin-bottom: 26px; }
+	.user_view_report .main_title .hasbox { width: 62px; }
+	.user_view_report .main_title .project_title { width: calc(100% - 62px - 140px); }
+	.user_view_report .main_title .time { width: 140px; }
+	.user_report_accordion .accordion-header .accordion-button { padding: 14px 20px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box { width: 50px; gap: 6px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box i { width: 10px; height: 10px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box span { font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button .project_name strong { font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button .project_name { width: calc(100% - 50px - 90px); padding: 0 12px; font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button .total_time { width: 90px; font-size: 14px; }
+	.user_report_accordion .accordion-body .sub_title { padding: 0 28px 8px 24px; }
+	.user_report_accordion .accordion-body .sub_title .hasbox { width: 68px; }
+	.user_report_accordion .accordion-body .sub_title .task_name { width: calc(100% - 68px - 100px); }
+	.user_report_accordion .accordion-body .sub_title .time { text-align: right; }
+	.user_report_accordion .accordion-body .entry_box { padding: 16px 28px 16px 24px; }
+	.user_report_accordion .accordion-body .entry_box .number { width: 68px; font-size: 15px; }
+	.user_report_accordion .accordion-body .entry_box .content { width: calc(100% - 68px - 100px); font-size: 15px; }
+	.user_report_accordion .accordion-body .entry_box .time { text-align: right; font-size: 15px; }
+	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 68px - 150px - 140px); }
+	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 150px; text-align: center; }
+	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 68px - 150px - 140px); }
+	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 150px; text-align: center; }
+
+	/* ========== User_Report Page Style: End ========== */
+
+	/* ========== Notification Page Style: Start ========== */
+
+	.notification_box .notify_sec { gap: 20px; }
+	.notification_box .notify_sec .left_box .user_icon { height: 28px; width: 28px; }
+	.notification_box .notify_sec .left_box .user_icon span { height: 24px; width: 24px; font-size: 10px; }
+	.notification_box .notify_sec .left_box .user_content { max-width: 550px; }
+	.notification_box .notify_sec .left_box .user_content .top_box h6 { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .top_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box span { font-size: 14px; max-width: 300px; }
+	.notification_box + .notification_box { margin-top: 22px; }
+	.notification_listsection .load_more_btn { margin-top: 36px; }
+	.notification_listsection .load_more_btn .btn_wrap { height: 44px; }
+
+	/* ========== Notification Page Style: End ========== */
+
+	/* ========== Profile Page Style: Start ========== */
+
+	.profile_section { padding: 24px; }
+	.user_detail_section { padding: 28px; }
+	.user_detail_section .bg_logo_box { max-width: 160px; }
+	.user_detail_section .change_password_box .input-row .form-label { font-size: 14px; }
+	.user_detail_section .change_password_box .input-row .form-control::placeholder { font-size: 12px; }
+	.user_detail_section .change_password_box .btnbox .primary-btn { height: 42px; }
+	.user_detail_section .change_password_box .input-row .address { height: 140px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box { top: 14px; right: 14px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box .icon { height: 20px; width: 20px; }
+
+	/* ========== Profile Page Style: End ========== */
+
+	/* ========== Manager_Projects Page Style: Start ========== */
+	
+	.leave_modal_section_box .modal-dialog .modal-content { padding: 26px; }
+	.leave_modal_section_box .modal-content .modal-header { margin-bottom: 28px; }
+	.leave_modal_section_box .modal-content .modal-body .input-row + .input-row { margin-top: 18px; }
+
+	/* ========== Manager_Projects Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+
+	.project_task_main_box .right_box h5 { font-size: 16px; }
+	.project_task_listing_box_section { margin: 26px 0 24px 0; background: none; padding: 0; flex-direction: column-reverse; gap: 24px; align-items: unset; }
+	.project_task_listing_box_section .nav { margin: 0; background: var(--primary-white); border-radius: 14px; }
+	.project_task_listing_box_section .nav::-webkit-scrollbar { display: none; }
+	.project_task_listing_box_section .btn_wrap { margin-left: auto; }
+	.project_task_table_scroll .table_data tbody tr td .title { max-width: 50px; }
+	.project_task_table_scroll .table_data tbody tr td .user_name_box .user_icon { height: 24px; width: 24px; }
+	.project_task_table_scroll .table_data tbody tr td .user_name_box .user_icon i { height: 20px; width: 20px; font-size: 8px; }
+	.project_task_table_scroll .table_data tbody tr td .user_name_box .user_name { max-width: 40px; }
+	.project_task_table_scroll .table_data tbody tr td .run_tag span { font-size: 13px; padding: 6px 10px; }
+	.project_task_table_scroll .table_data tbody tr td .complete_tag span { font-size: 13px; padding: 6px 10px; }
+	.project_task_table_scroll .table_data tbody tr td .overdue_tag span { font-size: 13px; padding: 6px 10px; }
+	.project_task_table_scroll .table_data tbody tr td .review_tag span { font-size: 13px; padding: 6px 10px; }
+	.project_task_table_scroll .table_data tbody tr td .leave_type { max-width: 60px; }
+	.project_task_table_scroll .table_data tbody tr td .leave_type .wrapper { font-size: 10px; height: 14px; }
+	.title_block .lenght_fliter_search { align-items: flex-start; }
+	.filter_search_section { flex-direction: column; align-items: flex-end; }
+	.filter_search_section .filter_section { height: 46px; margin: 0 0 16px 0; }
+	.filter_search_section .filter_section .filter_icon { padding: 0 20px; }
+	.filter_search_section .filter_section .filter_icon .img_icon { height: 22px; }
+	.filter_search_section .filter_section .from-filter-date { padding: 0 18px 0 16px; }
+	.filter_search_section .filter_section .to-filter-date .fill_to_date { min-width: 100px; }
+	.project_time_report_section { padding: 18px 0 6px 0; }
+	.project_time_report_section .sub_title { padding: 0 20px 16px 24px; }
+	.project_time_report_section .entry_box { padding: 16px 20px 16px 24px; }
+	.project_detail_description { padding: 26px 26px 26px 26px; }
+	.project_detail_description h3 { font-size: 20px; }
+	.project_detail_description .project_description_section { margin-top: 26px; }
+	.project_detail_description .attach_file_section { margin-top: 26px; }
+	.project_detail_description .attach_file_section .upload_file_section .uploadfile_name { height: 48px; }
+	.project_detail_description .comment_section { margin-top: 26px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: 650px; }
+	.manager_project_offcanvas .offcanvas-header .button_text .btn-close { margin-right: 12px; }
+	.manager_project_offcanvas .offcanvas-header .btn_box .task_btn { height: 40px; font-size: 14px; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+
+	/* ========== Manager_Task Page Style: Start ========== */
+
+	.manager_task_listing { margin: 0 0 0 0; }
+	.manager_project_offcanvas .offcanvas-header .btn_box a + a { margin-left: 12px; }
+
+	/* ========== Manager_Task Page Style: End ========== */
+
+	/* ========== Manager_User_Availability Pages Style: Start ========== */
+
+	.user_availability_section { padding: 0 26px 26px 26px; }
+	.user_availability_section .user_view_report { padding: 70px 0 0 0; }
+	.user_availability_section .main_title .project_title { width: 300px; }
+	.user_availability_section .main_title .time { width: calc(100% - 300px); }
+	.user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list { width: 300px; }
+	.user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list { width: calc(100% - 300px); }
+	.user_no_availability_section { margin: 0; padding: 0 15px; }
+	.user_no_task_scetion .user_no_task_wrap { margin: 70px auto; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add { margin: 70px 0; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .no_task_img { max-width: 230px; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .text-wrap { margin-top: 30px; }
+
+	/* ========== Manager_User_Availability Pages Style: End ========== */
+
+	/* ========== Manager_Report Page Style: Start ========== */
+
+	.manager_main_report_title { flex-direction: column; align-items: flex-start; margin-bottom: 24px; }
+	.manager_main_report_title h3 { margin-bottom: 24px; }
+	.manager_main_report_title ul { width: 100%; }
+	.manager_main_report_title ul li { width: 100%; }
+	.manager_main_report_title ul li a { height: 40px; }
+	.manager_main_report_title ul li a span { font-size: 14px; }
+	.manager_selection_box .fromto_box { flex-wrap: wrap; }
+	.manager_selection_box .fromto_box .input-row { max-width: 338px; }
+	.manager_selection_box .fromto_box .input-row .form-label { font-size: 14px; }
+	.manager_selection_box .btnbox { margin-top: 24px; }
+	.manager_selection_box .btnbox .primary-btn { height: 40px; }
+	.manager_selection_box .btnbox .primary-btn span { font-size: 14px; }
+	.manager_report_table_section .title_block .length_search_box { align-items: flex-start; }
+	.manager_report_table_section .button_blocks { flex-direction: column; align-items: flex-end; }
+	.manager_report_table_section .button_blocks .btnbox { margin: 12px 0 0 0; }
+	.manager_report_table_section .button_blocks .btnbox .primary-btn span { font-size: 14px; }
+	.manager_report_view_main_title .manager_view_report_entry { padding: 0 20px 24px 20px; }
+	.manager_inner_view_report { padding: 0 20px 6px 20px; }
+	.manager_inner_view_report .main_title .hasbox { font-size: 14px; }
+	.manager_inner_view_report .main_title .project_title { width: calc(100% - 80px - 200px); font-size: 14px; }
+	.manager_inner_view_report .main_title .time { width: 200px; font-size: 14px; }
+	.manager_inner_view_report .inner_wrapper .entry_box .number { font-size: 14px; }
+	.manager_inner_view_report .inner_wrapper .entry_box .content { width: calc(100% - 80px - 200px); font-size: 14px; }
+	.manager_inner_view_report .inner_wrapper .entry_box .time { width: 200px; font-size: 14px; }
+	.manager_report_overdue_main_title .manager_selection_box { margin-top: 24px; }
+	.manager_selection_box .manager_inner_selection_box { flex-direction: column; }
+	.manager_selection_box .manager_inner_selection_box .user-input-row { width: 100%; }
+	.manager_selection_box .manager_inner_selection_box .fromto_box { width: 100%; margin: 16px 0 0 0; }
+	.master_report_main_title .manager_selection_box { margin-top: 24px; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box { flex-direction: row; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .user-input-row { width: 65%; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .fromto_box { width: 35%; margin: 0 0 0 16px; }
+	.master_report_main_title .task-listing .master_report_accordion { display: none; }
+	.master_report_main_title .task-listing .master_report_mobile_accordion { display: block; }
+	.master_report_main_title .master_report_mobile_accordion .accordion-header .accordion-button .project_name { font-size: 16px; }
+	.master_report_mobile_accordion .accordion-collapse .accordion-body { padding: 0; }
+	.master_report_mobile_accordion .mobile_task_list { padding: 20px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_number_box { padding: 0 20px 24px 20px; }
+	.master_report_mobile_accordion .task_entry_number_box .hasbox { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_number_box .number { font-size: 15px; line-height: 1.15; color: var(--text-gray); padding: 10px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_content { padding: 0 20px 24px 20px; }
+	.master_report_mobile_accordion .task_entry_content .task_name { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_content .content { font-size: 14px; line-height: 1.43; color: var(--text-gray); padding: 10px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_spent_time { display: flex; align-items: center; justify-content: space-between; padding: 0 20px 24px 20px; }
+	.master_report_mobile_accordion .task_entry_spent_time .spent_time { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_spent_time .time { font-size: 14px; line-height: 1.15; color: var(--text-gray); }
+	.master_report_mobile_accordion .task_entry_spent_time .mobile_multipal_entry_bg .time + .time { margin-top: 10px; }
+	.master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
+
+	/* ========== Manager_Report Page Style: End ========== */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/* ========== Login Page Style: Start ========== */
+
+	.login-page .login-section { padding: 30px 30px 0 30px; }
+	.login-page .login-bg { height: 250px; }
+	.login-form-box { margin: -140px auto 0 auto; max-width: 400px; padding: 24px 20px; border-radius: 10px; }
+	.login-form-box p { font-size: 16px; }
+	.login-form-box .w3nuts-logo { max-width: 120px; }
+	.login-form-box .form-box-wrap .input-row .form-control { padding: 0 40px 0 42px; }
+	.login-form-box .form-box-wrap .rem-pass-box { margin-top: 20px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 30px; }
+	.login-form-box .form-box-wrap .btnbox .primary-btn { height: 40px; }
+	.login-page .copy-right { padding: 16px 0; }
+	.login-form-box .form-box-wrap .rem-pass-box .forgot { font-size: 14px; }
+	.login-form-box .form-box-wrap .input-row .form-label { font-size: 14px; }
+	.login-form-box .form-box-wrap { margin-top: 30px; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.user-dash { padding: 24px 30px; }
+	.navbar-wrapper { padding: 12px 14px 12px 16px; width: calc(100% - 60px); right: 30px; }
+	.toggled .navbar-wrapper { width: calc(100% - 60px); }
+	.task_box { padding: 18px; }
+	.current_task_box .right_part .spend_time p,
+	.current_task_box .right_part .spend_time p .total_time { font-size: 16px; }
+	.current_task_box .right_part .spend_time p a { height: 26px; width: 26px; margin-left: 6px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 16px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 20px; }
+	.current_task_box .left_part .time-box .icon { height: 26px; width: 26px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .left_part .time-box { gap: 10px; }
+	.current_task_box .left_part h6 { font-size: 18px; }
+	.current_task_box .left_part p,
+	.current_task_box .left_part p span { font-size: 18px; }
+	.task_box h2 { margin-bottom: 16px; font-size: 30px; }
+	.leave_box { gap: 16px; }
+	.leave_box .left_part { align-items: center; }
+	.leave_box .left_part h6 { margin: 0; }
+	.leave_box .left_part .img_box { max-width: 24px; }
+	.leave_box .right_part .date_box i { height: 22px; width: 22px; }
+	.task-listing { margin-top: 24px; }
+	.title_block { padding: 24px 20px 24px 24px; gap: 22px; }
+	.title_block h3 { font-size: 22px; }
+	.mobile_table_sec { padding: 0 20px 10px 24px; }
+	.task_list_block { padding: 24px 24px 36px 24px; }
+	.task_list_block .has_box { font-size: 18px; }
+	.task_list_block .number_box { font-size: 16px; margin-top: 10px; }
+	.task_list_block .project_box .mobile_project_name { font-size: 16px; }
+	.task_list_block .project_box .mobile_project_title { margin-top: 10px; }
+	.task_list_block .mobile_listing .list_block .mobile_table_title,
+	.task_list_block .mobile_listing .list_block .mobile_table_discription { font-size: 15px; }
+	.task_list_block .action_block .action_title { font-size: 18px; }
+	.task_list_block .action_block .edit_delete_block { gap: 10px; }
+	.sidebar-wrapper .top_sidebar { position: relative; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle { display: flex; width: 24px; height: 24px; cursor: pointer; z-index: 1111; position: absolute; top: 40px; left: 48px; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon { width: 18px; height: 2px; position: relative; top: 12px; background: var(--heading-black); border-radius: 2px; margin-left: auto; transition: all 0.4s ease-in-out; display: block; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::after { content: ""; width: 8px; height: 2px; background: var(--heading-black); border-radius: 2px; position: absolute; top: -8px; right: 0; z-index: 1; transition: all 0.4s ease-in-out; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::before { content: ""; width: 14px; height: 2px; background: var(--heading-black); border-radius: 2px; position: absolute; bottom: -8px; right: 0; z-index: 1; transition: all 0.4s ease-in-out; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon { background: var(--primary-blue); margin-left: 0; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::after { background: var(--primary-blue); right: auto; left: 0; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::before { background: var(--primary-blue); right: auto; left: 0; }
+	.navbar-wrapper .navbar-inverse .sidebar-toggle { transition: all 0.3s ease-in-out; }
+	.toggled .navbar-wrapper .navbar-inverse .sidebar-toggle { opacity: 0; visibility: visible; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.user_project_listing_offcanvas_section { width: 338px; }
+	.user_project_listing_offcanvas_section .offcanvas-header { padding: 20px 24px 24px 24px; }
+	.user_project_listing_offcanvas_section .offcanvas-body { padding: 0 18px 24px 24px; }
+	.offcanvas-body .assign_section h6 { margin-bottom: 14px; }
+	.offcanvas-body .date-time-box li p { font-size: 14px; }
+	.offcanvas-body .date-time-box li span { font-size: 14px; }
+	.offcanvas-body .categorie_section { padding: 18px 0; }
+	.offcanvas-body .project_description_section { padding: 18px 0; }
+	.offcanvas-body .attach_file_section { padding: 18px 0 0 0; }
+	.dropzone_block .dropzone .dz-message .plus { width: 50px; height: 50px; }
+	.dropzone_block .dropzone .dz-preview .dz-image { width: 50px; height: 50px; }
+	.dropzone_block .dropzone .dz-preview .dz-error-mark { height: 20px; }
+	.project_detail_row .box_three { margin: 0 !important; order: 0 !important; }
+	.project_title_box h3 { font-size: 20px; }
+	.caption_wrapper .right_part { min-width: 84px; padding: 18px 10px; }
+	.caption_wrapper .left_part h3 { font-size: 20px; }
+	.caption_wrapper .right_part h3 { font-size: 20px; }
+	.caption_wrapper .right_part span { font-size: 14px; }
+	.project_tab_section .nav { margin: 24px 0 24px 0; overflow-x: auto; padding: 16px 12px; white-space: nowrap; }
+	.project_tab_section .nav::-webkit-scrollbar { display: none; }
+	.project_tab_section .nav .nav-item .nav-link { font-size: 16px; }
+	.task_list_block .project_box .mobile_project_title .title { font-style: normal; display: block; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section { gap: 6px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section .timmer_count { font-size: 16px; }
+	.project_detail_offcanvas .offcanvas-header .button_text { gap: 20px; }
+	.project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn { height: 40px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn { height: 26px; width: 26px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn span { max-width: 10px; }
+	.offcanvas-body .assign_section .assign_box { gap: 14px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper { gap: 6px;}
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box { height: 25px; width: 25px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box i { max-width: 18px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper p { font-size: 12px; }
+	.offcanvas-body .assign_section .assign_box .assign_by p { font-size: 12px; }
+	.offcanvas-body .assign_section .assign_box .assign_by::after { top: 4px; left: -8px; }
+	.offcanvas-body .assign_section .assign_box .assign_date p { font-size: 12px; }
+	.offcanvas-body .assign_section .assign_box .assign_date::after { top: 4px; left: -8px; }
+	.offcanvas-body .date-time-box li .time_box .add_text::after { height: 12px; width: 12px; left: -10px; }
+	.date-time-box .add_estimated_time_box .title { margin-bottom: 16px; }
+	.comment_section .input-row .comment-block .btnbox .primary-btn { background-size: 12px auto; }
+	.comments-list .commentbox-wrap .commentbox { padding: 18px 0; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb { height: 30px; width: 30px; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb i { max-width: 20px; }
+	.comments-list .commentbox-wrap .commentbox .comment-content { width: calc(100% - 30px); }
+	.comments-list .commentbox-wrap .commentbox .comment-title { gap: 6px; }
+	.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .comment-text { font-size: 14px; }
+	.comments-list .commentbox-wrap .sub-commentbox { padding-left: 30px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== User_Leaves Page Style: Start ========== */
+
+	.leave_report_box .btn_wrap { height: 38px; }
+	.task_list_block .leave_user_name .mobile_table_discription span { display: block; max-width: none; }
+	.task_list_block .leave_user_name .mobile_table_title { font-size: 15px; }
+	.leave_tab_section .task_list_block .project_box .mobile_project_name { font-size: 15px; }
+	.leave_tab_section .task_list_block .mobile_listing .list_wrapper .leave_time span i { font-size: 14px; }
+	.leave_tab_section .task_list_block .project_box .mobile_project_title { max-width: 550px; }
+	.leave_modal_section .modal-dialog { max-width: 750px; }
+	.leave_modal_section .modal-dialog .modal-content { padding: 24px; }
+	.leave_modal_section .modal-content .modal-header { margin-bottom: 28px; }
+	.leave_modal_section .modal-content .modal-header .modal-title { font-size: 22px; }
+	.fromto_box { margin: 18px 0; }
+	.fromto_box.leave_time .input-row:nth-child(odd) { min-width: 200px; }
+	.leave_modal_section .modal-content .modal-body .input-row + .input-row { margin-top: 18px; }
+
+	/* ========== User_Leaves Page Style: End ========== */
+
+	/* ========== User_Report Page Style: Start ========== */
+
+	.timmer_box .left_part a { font-size: 20px; }
+	.timmer_box .left_part a span { height: 28px; width: 28px; }
+	.timmer_box .left_part a span i { max-width: 10px; }
+	.timmer_box .right_part .spend_time p { font-size: 18px; }
+	.timmer_box .right_part .spend_time p a { font-size: 14px; height: 40px; }
+	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec .title h3 { height: 34px; font-size: 18px; }
+	.user_report_title_sec .input-row { gap: 16px; }
+	.user_report_title_sec .input-row .calander { max-width: 140px; }
+	.user_view_report .main_title { margin-bottom: 24px; }
+	.user_view_report .main_title .hasbox { width: 60px; font-size: 14px; }
+	.user_view_report .main_title .project_title { width: calc(100% - 60px - 130px); font-size: 14px; }
+	.user_view_report .main_title .time { width: 130px; font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button { padding: 14px 20px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box { width: 50px; gap: 6px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box i { width: 10px; height: 10px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box span { font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button .project_name strong { font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button .project_name { width: calc(100% - 50px - 100px); font-size: 14px; padding: 0 10px; }
+	.user_report_accordion .accordion-header .accordion-button .total_time { width: 100px; }
+	.user_report_accordion .accordion-body .sub_title { padding: 0 24px 8px 24px; }
+	.user_report_accordion .accordion-body .sub_title .hasbox { font-size: 14px; width: 60px; }
+	.user_report_accordion .accordion-body .sub_title .task_name { font-size: 14px; width: calc(100% - 60px - 100px); }
+	.user_report_accordion .accordion-body .sub_title .time { font-size: 14px; text-align: right; }
+	.user_report_accordion .accordion-body .entry_box { padding: 16px 24px; }
+	.user_report_accordion .accordion-body .entry_box .number { width: 60px; font-size: 14px; }
+	.user_report_accordion .accordion-body .entry_box .content { width: calc(100% - 60px - 100px); font-size: 14px; }
+	.user_report_accordion .accordion-body .entry_box .time { font-size: 14px; text-align: right; }
+	.user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 60px - 150px - 140px); }
+	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 150px; text-align: center; }
+	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 60px - 150px - 140px); }
+	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 150px; text-align: center; }
+	.user_report_accordion .accordion-body .sub_title .time_run { font-size: 14px; }
+	.user_report_accordion .accordion-body .entry_box .time_run { font-size: 14px; }
+
+	/* ========== User_Report Page Style: End ========== */
+
+	/* ========== Notification Page Style: Start ========== */
+
+	.notification_box .notify_sec { gap: 20px; }
+	.notification_box .notify_sec .left_box .user_icon { height: 26px; width: 26px; }
+	.notification_box .notify_sec .left_box .user_icon span { height: 22px; width: 22px; font-size: 10px; }
+	.notification_box .notify_sec .left_box .user_content { max-width: 500px; }
+	.notification_box .notify_sec .left_box .user_content .top_box h6 { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .top_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box span { font-size: 14px; max-width: 260px; }
+	.notification_box + .notification_box { margin-top: 20px; }
+	.notification_listsection .load_more_btn { margin-top: 30px; }
+	.notification_listsection .load_more_btn .btn_wrap { height: 44px; }
+
+	/* ========== Notification Page Style: End ========== */
+
+	/* ========== Profile Page Style: Start ========== */
+
+	.profilepage_row .row { row-gap: 24px; }
+	.profile_section { max-width: 324px; margin: 0 auto; padding: 24px; }
+	.user_detail_section { padding: 28px; }
+	.user_detail_section .change_password_box .input-row .form-label { font-size: 14px; }
+	.user_detail_section .change_password_box .btnbox .primary-btn { height: 42px; padding: 0 64px; }
+	.user_detail_section .change_password_box .input-row .address { height: 130px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box { right: 14px; top: 15px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box .icon { height: 22px; width: 22px; }
+
+	/* ========== Profile Page Style: End ========== */
+
+	/* ========== Manager_Dashboard Page Style: Start ========== */
+
+	.manager_leave_box .right_part .name_box span { font-size: 8px; }
+	.name-tooltip .tooltip-inner { font-size: 12px; }
+	.task_list_block .mobile_listing .list_block .date_box span { font-size: 16px; }
+	.manager_dash_row .task-listing .title_block .manager_search_section .search_text { max-width: 130px; }
+
+	/* ========== Manager_Dashboard Page Style: End ========== */
+
+	/* ========== Manager_Projects Page Style: Start ========== */
+
+	.leave_modal_section_box .modal-dialog { max-width: 750px; }
+	.leave_modal_section_box .modal-dialog .modal-content { padding: 24px; }
+	.leave_modal_section_box .modal-content .modal-header { margin-bottom: 28px; }
+	.leave_modal_section_box .modal-content .modal-header .modal-title { font-size: 22px; }
+	.leave_modal_section_box .modal-content .modal-body .input-row + .input-row { margin-top: 18px; }
+
+	/* ========== Manager_Projects Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+
+	.project_task_main_box .right_box h5 { font-size: 16px; }
+	.project_task_listing_box_section { margin: 24px 0 24px 0; background: none; padding: 0; flex-direction: column-reverse; gap: 24px; align-items: unset; }
+	.project_task_listing_box_section .nav { margin: 0; background: var(--primary-white); border-radius: 14px; }
+	.project_task_listing_box_section .nav::-webkit-scrollbar { display: none; }
+	.project_task_listing_box_section .btn_wrap { margin-left: auto; }
+	.task_list_block .mobile_listing .task_list_date .leave_time span i { height: 15px; }
+	.title_block .lenght_fliter_search { align-items: flex-start; }
+	.filter_search_section { flex-direction: column; align-items: flex-end; }
+	.filter_search_section .filter_section { height: 42px; margin: 0 0 16px 0; }
+	.filter_search_section .filter_section .filter_icon { padding: 0 18px; }
+	.filter_search_section .filter_section .filter_icon .img_icon { width: 20px; height: 20px; }
+	.filter_search_section .filter_section .from-filter-date { padding: 0 16px 0 14px; }
+	.filter_search_section .filter_section .to-filter-date .fill_to_date { min-width: 90px; }
+	.project_time_report_section { display: none; }
+	.mobile_time_report_section { display: block; padding: 0 20px 10px 24px; max-height: 1000px; }
+	.mobile_time_report_section .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
+	.project_tab_section .tab-pane .project_detail_tab_section { padding: 22px 16px 16px 16px; }
+	.project_detail_description { padding: 24px; border: 1px solid var(--mobile-table-stroke); border-radius: 14px; }
+	.project_detail_description h3 { font-size: 18px; }
+	.project_detail_description .project_description_section { margin-top: 24px; }
+	.project_detail_description .attach_file_section { margin-top: 24px; }
+	.project_detail_description .attach_file_section .upload_file_section .uploadfile_name { height: 38px; }
+	.project_detail_description .comment_section { margin-top: 24px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: 566px; }
+	.manager_project_offcanvas .offcanvas-header .button_text .btn-close { margin-right: 12px; }
+	.manager_project_offcanvas .offcanvas-header .btn_box .task_btn { height: 40px; font-size: 14px; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+
+	/* ========== Manager_Task Page Style: Start ========== */
+
+	.manager_task_listing { margin: 0 0 0 0; }
+	.manager_project_offcanvas .offcanvas-header .btn_box a + a { margin-left: 10px; }
+
+	/* ========== Manager_Task Page Style: End ========== */
+
+	/* ========== Manager_User_Availability Pages Style: Start ========== */
+
+	.user_availability_section { padding: 0 24px 26px 24px; }
+	.user_availability_section .user_view_report { display: none; }
+	.mobile_user_view_report { display: block; padding: 60px 0 0 0; }
+	.mobile_user_view_report .user_availability_list { max-height: 1000px; }
+	.mobile_user_view_report .user_availability_list .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list { flex-direction: column; align-items: flex-start; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list { width: 100%; padding: 0 10px 0 32px; text-align: start; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list span { display: flex; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list p { font-size: 14px; line-height: 1.15; color: var(--text-gray); margin-top: 8px; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list { width: 100%; padding: 0 10px 0 32px; margin-top: 12px; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list span { display: flex; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list p { font-size: 14px; line-height: 1.15; color: var(--text-gray); margin-top: 8px; }
+	.user_no_availability_section { margin: 0; padding: 0 15px; }
+	.user_no_task_scetion .user_no_task_wrap { margin: 70px auto; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add { margin: 70px 0; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .text-wrap { margin-top: 30px; }
+
+	/* ========== Manager_User_Availability Pages Style: End ========== */
+
+	/* ========== Manager_Report Page Style: Start ========== */
+
+	.manager_main_report_title { flex-direction: column; align-items: flex-start; margin-bottom: 24px; }
+	.manager_main_report_title h3 { margin-bottom: 34px; }
+	.manager_main_report_title ul { width: 100%; }
+	.manager_main_report_title ul li { width: 100%; }
+	.manager_main_report_title ul li a { height: 36px; }
+	.manager_main_report_title ul li a span { font-size: 14px; }
+	.manager_selection_box .fromto_box { flex-wrap: wrap; }
+	.manager_selection_box .fromto_box .input-row { max-width: 322px; }
+	.manager_selection_box .btnbox { margin-top: 24px; }
+	.manager_selection_box .btnbox .primary-btn { height: 36px; }
+	.manager_selection_box .btnbox .primary-btn span { font-size: 14px; }
+	.manager_report_table_section .title_block .length_search_box { align-items: flex-start; }
+	.manager_report_table_section .button_blocks { flex-direction: column; align-items: flex-end; }
+	.manager_report_table_section .button_blocks .btnbox { margin: 12px 0 0 0; }
+	.manager_report_table_section .button_blocks .btnbox .primary-btn span { font-size: 14px; }
+	.manager_report_view_main_title .project_tab_section .nav { margin: 24px 0 0 0; }
+	.manager_report_view_main_title .project_tab_section .tab-pane .task-listing { margin: 24px 0 0 0; }
+	.manager_report_view_main_title .manager_view_report_entry { padding: 0 24px 24px 24px; }
+	.manager_inner_view_report { display: none; }
+	.mobile_manager_inner_report { display: block; padding: 0 24px; }
+	.mobile_manager_inner_report ul { display: block; position: relative; }
+	.mobile_manager_inner_report ul li { width: 100%; padding: 24px; border: 1px solid var(--light-gray-border); border-radius: 14px; }
+	.mobile_manager_inner_report ul li .inner_main_list { display: block; }
+	.mobile_manager_inner_report ul li .inner_main_list span { display: block; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_manager_inner_report ul li .inner_main_list p { color: var(--text-gray); font-size: 16px; line-height: 1.15; margin-top: 8px; }
+	.mobile_manager_inner_report ul li .inner_sub_list { display: block; margin-top: 16px; }
+	.mobile_manager_inner_report ul li .inner_sub_list span { display: block; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_manager_inner_report ul li .inner_sub_list p { color: var(--text-gray); font-size: 16px; line-height: 1.15; margin-top: 8px; }
+	.mobile_manager_inner_report ul li + li { margin-top: 24px; }
+	.manager_report_overdue_main_title .manager_selection_box { margin-top: 24px; }
+	.manager_selection_box .manager_inner_selection_box { flex-direction: column; }
+	.manager_selection_box .manager_inner_selection_box .user-input-row { width: 100%; }
+	.manager_selection_box .manager_inner_selection_box .fromto_box { width: 100%; margin: 16px 0 0 0; }
+	.manager_report_overdue_main_title .mobile_table_sec .task_list_block .project_box .mobile_project_title span { display: inline-flex; color: var(--heading-black); }
+	.master_report_main_title .manager_selection_box { margin-top: 24px; }
+	.manager_selection_box .manager_inner_selection_box { flex-direction: column; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .user-input-row { width: 100%; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .fromto_box { width: 100%; margin: 16px 0 0 0; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .fromto_box .input-row { max-width: 100%; }
+	.master_report_main_title .task-listing .master_report_accordion { display: none; }
+	.master_report_main_title .task-listing .master_report_mobile_accordion { display: block; }
+	.master_report_main_title .master_report_mobile_accordion .accordion-header .accordion-button .project_name span { font-size: 14px; }
+	.master_report_mobile_accordion .accordion-collapse .accordion-body { padding: 0; }
+	.master_report_mobile_accordion .mobile_task_list { padding: 18px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_number_box { padding: 0 20px 24px 20px; }
+	.master_report_mobile_accordion .task_entry_number_box .hasbox { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_number_box .number { font-size: 15px; line-height: 1.15; color: var(--text-gray); padding: 10px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_content { padding: 0 20px 24px 20px; }
+	.master_report_mobile_accordion .task_entry_content .task_name { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_content .content { font-size: 14px; line-height: 1.43; color: var(--text-gray); padding: 10px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_spent_time { display: flex; align-items: center; justify-content: space-between; padding: 0 20px 24px 20px; }
+	.master_report_mobile_accordion .task_entry_spent_time .spent_time { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_spent_time .time { font-size: 14px; line-height: 1.15; color: var(--text-gray); }
+	.master_report_mobile_accordion .task_entry_spent_time .mobile_multipal_entry_bg .time + .time { margin-top: 10px; }
+	.master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
+
+	/* ========== Manager_Report Page Style: End ========== */
+}
+
+@media (max-width: 991px) {
+
+	.main_wapper { overflow: hidden; }
+	.scrolldisable { overflow: hidden; }
+	.custom-tooltip { display: none !important; }
+	.sidebar_section.toggled { padding: 0; }
+	.sidebar-wrapper { left: 0; top: 0; bottom: 0; width: 100%; transform: translateX(-100%); border-radius: 0; }
+	.toggled .sidebar-wrapper { transform: translateX(0); width: 100%; }
+	.sidebar_section { padding-left: 0; }
+	.table_scroll_sec { display: none; }
+	.mobile_table_sec { display: block; }
+	.sidebar-wrapper .top_sidebar .open-sidebar-logo a i.mobile_logo { display: none; }
+	.toggled .sidebar-wrapper .top_sidebar .open-sidebar-logo a i.desktop_logo { opacity: 1; visibility: visible; }
+	.toggled-full .sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { justify-content: flex-start; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { justify-content: flex-start; }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { padding: 0 24px; }
+	.toggled .primary-btn span { font-size: 18px; }
+	.toggled .primary-btn.active span { color: var(--primary-blue); }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li + li { margin-top: 10px !important; }
+	.toggled-full .sidebar-wrapper .bottom_sidebar { padding: 25px 10px 18px 20px; opacity: 1; visibility: visible; background: var(--primary-hover-color); }
+	.toggled .sidebar-wrapper .bottom_sidebar ul li::after { height: 4px; width: 4px; }
+	.toggled .sidebar-wrapper .bottom_sidebar .full_title { font-size: 16px; }
+	.toggled .sidebar-wrapper .bottom_sidebar ul li { font-size: 14px; }
+	.primary-btn.active { background: var(--primary-hover-color); }
+	.navbar-wrapper .navbar-inverse .sidebar-toggle:hover .menu-toggler-icon, 
+	.navbar-wrapper .navbar-inverse .sidebar-toggle:hover .menu-toggler-icon::after, 
+	.navbar-wrapper .navbar-inverse .sidebar-toggle:hover .menu-toggler-icon::before { background: var(--heading-black); }
+	.navbar-inverse .right_part .theme_box .theme_wrap span { display: none; }
+	.profile_box .dropdown .custom_user .user_text p { display: none; }
+	.navbar-inverse .right_part { gap: 8px; transition: all 0.4s ease-in-out; }
+	.navbar-inverse .right_part .theme_box .theme_wrap { padding: 6px 8px; }
+	.navbar-inverse .right_part .head_notify .notify_count { height: 30px; width: 30px; }
+	.navbar-wrapper .navbar-inverse .sidebar-toggle .menu-toggler-icon { margin-left: auto !important; }
+	.toggled .navbar-wrapper .navbar-inverse .sidebar-toggle .menu-toggler-icon::before,
+	.toggled .navbar-wrapper .navbar-inverse .sidebar-toggle .menu-toggler-icon::after { right: 0; left: auto; }
+	.profile_box .dropdown .custom_user .profile_pic { height: 30px; width: 30px; }
+	.profile_box .dropdown .custom_user .profile_pic i { max-width: 20px; }
+	.notify_dropdon { transform: translate(22%, 20px); }
+	.open_dropdown .notify_dropdon { transform: translate(22%, 0); }
+	.notify_dropdon { min-width: 300px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user { height: 26px; width: 26px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .user .user_name { height: 20px; width: 20px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span::after { top: 6px; }
+	.notify_dropdon .notify_list .notify_item .notify_user .info .user_info,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption p,
+	.notify_dropdon .notify_list .notify_item .notify_user .info .caption span i,
+	.notify_dropdon .notify_list .notify_item .time-block { font-size: 14px; }
+	.notify_dropdon .view_btn a { font-size: 16px; }
+	.profile_box .dropdown .custom_user_list { margin-top: 10px; width: 90px; }
+	.profile_box .dropdown .custom_user_list ul li a { gap: 8px; font-size: 14px; }
+	.profile_box .dropdown .custom_user_list ul li a i { height: 18px; width: 18px; }
+	.content_wrapper { padding-top: 84px; }
+	.title_section { margin-bottom: 24px; }
+	.dashboard_row .row { row-gap: 16px; }
+	.row { margin: 0 -8px; }
+	.row>* { padding: 0 8px; }
+	.dashboard_row .box_one { order: 2; }
+	.dashboard_row .box_two { order: 3; }
+	.dashboard_row .box_three { order: 1; margin-bottom: 8px; }
+	.dashboard_row .box_four { order: 4; }
+	.dashboard_row .box_five { order: 6; }
+	.dashboard_row .box_six { order: 5; }
+	.dashboard_row .box_seven { order: 7; }
+	.sidebar_section.toggled .navbar-wrapper { transition: all .4s ease-in-out; background-color: transparent; box-shadow: none; }
+	.sidebar_section.toggled .navbar-wrapper *,
+	.sidebar_section.toggled .navbar-wrapper { pointer-events: none; }
+	.sidebar_section.toggled .navbar-wrapper .sidebar-toggle *,
+	.sidebar_section.toggled .navbar-wrapper .sidebar-toggle { pointer-events: auto; }
+	.sidebar_section.toggled .navbar-wrapper .right_part { opacity: 0; visibility: hidden; }
+	.table_info_section { flex-direction: column; gap: 20px; padding: 25px 10px 18px 10px; }
+	.sidebar-wrapper .top_sidebar .open-sidebar-logo .sidebar-toggle { display: block; }
+
+	.file_attachment .form-control .btn_sec .btn_wrap i { height: 18px; width: 18px; }
+
+	
+	/* ================================================== Dark Mode Style: Start ================================================== */
+	
+	.dark-mode .toggled .primary-btn.active span { color: var(--dark-primary-white-text); }
+
+	/* ================================================== Dark Mode Style: End ================================================== */
+}
+
+@media (max-width: 767px) {
+
+	/* ========== Login Page Style: Start ========== */
+
+	.login-page .login-section { padding: 24px 24px 0 24px; }
+	.login-page .login-bg { height: 150px; border-radius: 3px; }
+	.login-page .login-bg img { border-radius: 3px; object-fit: cover; }
+	.login-form-box { margin: -71px auto 0 auto; max-width: 290px; padding: 18px 16px; border-radius: 10px; }
+	.login-form-box .w3nuts-logo { max-width: 98px; }
+	.login-form-box p { margin-top: 20px; font-size: 14px; }
+	.login-form-box .form-box-wrap .input-row .form-label { font-size: 14px; }
+	.login-form-box .form-box-wrap .rem-pass-box .form-switch label { font-size: 14px; }
+	.login-form-box .form-box-wrap { margin-top: 32px; }
+	.login-form-box .form-box-wrap .input-row .form-control { padding: 0 30px 0 42px; }
+	.login-form-box .form-box-wrap .rem-pass-box { margin-top: 24px; }
+	.login-form-box .form-box-wrap .rem-pass-box .forgot { font-size: 13px; }
+	.login-form-box .form-box-wrap .btnbox { margin-top: 24px; }
+	.login-form-box .form-box-wrap .btnbox .primary-btn { height: 35px; }
+	.login-page .copy-right { padding: 14px 0; }
+
+	/* ========== Login Page Style: End ========== */
+
+	/* ========== User_Dashboard Page Style: Start ========== */
+
+	.user-dash { padding: 24px 24px 24px 24px; }
+	.navbar-wrapper { padding: 12px 14px 12px 16px; width: calc(100% - 48px); right: 24px; }
+	.toggled .navbar-wrapper { width: calc(100% - 48px); }
+	.title_section h3 { font-size: 22px; }
+	.task_box { padding: 16px; }
+	.current_task_box { gap: 24px; flex-direction: column; }
+	.current_task_box .left_part { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
+	.current_task_box .left_part .time-box .icon { height: 26px; width: 26px; }
+	.current_task_box .left_part .time-box .icon i { max-width: 8px; }
+	.current_task_box .left_part .time-box .timmer { font-size: 18px; }
+	.current_task_box .right_part { flex-direction: column-reverse; width: 100%; align-items: flex-start; gap: 16px; }
+	.current_task_box .right_part .spend_time p,
+	.current_task_box .right_part .spend_time p .total_time { font-size: 16px; }
+	.current_task_box .right_part .spend_time p a { height: 26px; width: 26px; margin-left: 6px; }
+	.current_task_box .right_part .spend_time p a i { max-width: 16px; }
+	.task_box p { font-size: 14px; line-height: 1.5; }
+	.task_box h2 { font-size: 26px; margin-bottom: 24px; }
+	.over_due_box .over_due_icon { height: 24px; width: 24px; }
+	.over_due_box .over_due_icon i { margin-top: -2px; }
+	.leave_box { padding: 16px 8px 16px 8px; gap: 16px; }
+	.leave_box .left_part { align-items: center; }
+	.leave_box .left_part h6 { font-size: 14px; margin: 0; }
+	.leave_box .left_part .img_box { max-width: 20px; }
+	.leave_box .right_part .date_box i { height: 20px; width: 20px; }
+	.leave_box .right_part .date_box p { font-size: 14px; }
+	.task-listing { margin-top: 26px; }
+	.title_block h3 { font-size: 22px; }
+	.title_block .length_search_box { flex-direction: column; align-items: flex-start; gap: 20px; }
+	.title_block { padding: 16px 16px 24px 16px; flex-direction: column; gap: 20px; align-items: flex-start; }
+	.title_block .search_section { width: 100%; }
+	.title_block .search_section .search_text { max-width: 100%; width: 100%; }
+	.mobile_table_sec { padding: 0 10px 0 10px; }
+	.sidebar-wrapper .top_sidebar { position: relative; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle { display: flex; width: 24px; height: 24px; cursor: pointer; z-index: 1111; position: absolute; top: 40px; left: 40px; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon { width: 18px; height: 2px; position: relative; top: 12px; background: var(--heading-black); border-radius: 2px; margin-left: auto; transition: all 0.4s ease-in-out; display: block; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::after { content: ""; width: 8px; height: 2px; background: var(--heading-black); border-radius: 2px; position: absolute; top: -8px; right: 0; z-index: 1; transition: all 0.4s ease-in-out; }
+	.sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::before { content: ""; width: 14px; height: 2px; background: var(--heading-black); border-radius: 2px; position: absolute; bottom: -8px; right: 0; z-index: 1; transition: all 0.4s ease-in-out; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon { background: var(--primary-blue); margin-left: 0; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::after { background: var(--primary-blue); right: auto; left: 0; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-toggle .menu-toggler-icon::before { background: var(--primary-blue); right: auto; left: 0; }
+	.navbar-wrapper .navbar-inverse .sidebar-toggle { transition: all 0.2s ease-in-out; }
+	.toggled .navbar-wrapper .navbar-inverse .sidebar-toggle { opacity: 0; visibility: visible; }
+
+	/* ========== User_Dashboard Page Style: End ========== */
+
+	/* ========== User_Projects Page Style: Start ========== */
+
+	.user_project_listing_offcanvas_section { width: 338px; }
+	.user_project_listing_offcanvas_section .offcanvas-header { padding: 20px 24px 24px 24px; }
+	.user_project_listing_offcanvas_section .offcanvas-body { padding: 0 18px 24px 24px; }
+	.offcanvas-body .date-time-box li p { font-size: 14px; }
+	.offcanvas-body .date-time-box li p i { height: 22px; width: 22px; }
+	.offcanvas-body .date-time-box li span { font-size: 14px; }
+	.offcanvas-body .categorie_section { padding: 16px 0; }
+	.offcanvas-body .categorie_section .title i { height: 22px; width: 22px; }
+	.offcanvas-body .project_description_section { padding: 16px 0; }
+	.offcanvas-body .project_description_section .title i { height: 22px; width: 22px; }
+	.offcanvas-body .attach_file_section { padding: 16px 0 0 0; }
+	.offcanvas-body .attach_file_section .title i { height: 22px; width: 22px; }
+	.dropzone_block .dropzone .dz-message .plus { width: 50px; height: 50px; }
+	.dropzone_block .dropzone .dz-preview .dz-image { width: 50px; height: 50px; }
+	.dropzone_block .dropzone .dz-preview .dz-error-mark { height: 20px; }
+	.project_detail_row .box_three { margin: 0; order: 0; }
+	.project_title_box span { font-size: 14px; }
+	.project_title_box h3 { font-size: 18px; }
+	.caption_wrapper { gap: 16px; }
+	.caption_wrapper .left_part span { font-size: 14px; }
+	.caption_wrapper .left_part h3 { font-size: 18px; }
+	.caption_wrapper .right_part { min-width: 84px; padding: 18px 10px; }
+	.caption_wrapper .right_part h3 { font-size: 18px; }
+	.caption_wrapper .right_part span { font-size: 14px; }
+	.project_tab_section .nav { margin: 24px 0 24px 0; overflow-x: auto; padding: 16px 8px; white-space: nowrap; }
+	.project_tab_section .nav::-webkit-scrollbar { display: none; }
+	.project_tab_section .nav .nav-item .nav-link { font-size: 16px; }
+	.task_list_block .project_box .mobile_project_title .title { font-style: normal; display: block; }
+	.project_detail_offcanvas .offcanvas-header .button_text { gap: 16px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section { gap: 6px; }
+	.project_detail_offcanvas .offcanvas-header .timmer_section .timmer_count { font-size: 16px; }
+	.project_detail_offcanvas .offcanvas-header .button_text .offcanvas-title { font-size: 14px; }
+	.project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn { height: 38px; font-size: 14px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn { height: 24px; width: 24px; }
+	.project_detail_offcanvas .offcanvas-header .play_push_btn span { max-width: 10px; }
+	.offcanvas-body .assign_section .assign_box { gap: 14px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper { gap: 6px;}
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box { height: 30px; width: 30px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper .img_box i { max-width: 20px; }
+	.offcanvas-body .assign_section .assign_box .assigny_wrapper p { font-size: 12px; }
+	.offcanvas-body .assign_section .assign_box .assign_by p { font-size: 12px; }
+	.offcanvas-body .assign_section .assign_box .assign_by::after { top: 3px; left: -8px; }
+	.offcanvas-body .assign_section .assign_box .assign_date p { font-size: 12px; }
+	.offcanvas-body .assign_section .assign_box .assign_date::after { top: 3px; left: -8px; }
+	.offcanvas-body .date-time-box li .time_box .add_text::after { height: 10px; width: 10px; left: -8px; }
+	.date-time-box .add_estimated_time_box .title { margin-bottom: 16px; }
+	.date-time-box .add_estimated_time_box .title i { height: 22px; width: 22px; }
+	.offcanvas-body .comment_section .title i { height: 22px; width: 22px; }
+	.comment_section .input-row .comment-block .btnbox .primary-btn { background-size: 12px auto; }
+	.comments-list .commentbox-wrap .commentbox { padding: 16px 0; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb { height: 25px; width: 25px; }
+	.comments-list .commentbox-wrap .commentbox .comment-thumb i { max-width: 16px; }
+	.comments-list .commentbox-wrap .commentbox .comment-content { width: calc(100% - 25px); }
+	.comments-list .commentbox-wrap .commentbox .comment-title { gap: 6px; }
+	.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .comment-text { font-size: 14px; }
+	.comments-list .commentbox-wrap .sub-commentbox { padding-left: 30px; }
+
+	/* ========== User_Projects Page Style: End ========== */
+
+	/* ========== User_Leaves Page Style: Start ========== */
+
+	.leave_report_box .btn_wrap { height: 35px; }
+	.leave_report_box .btn_wrap span { font-size: 14px; }
+	.leave_modal_section .modal-dialog { max-width: 340px; margin: 0 auto; }
+	.leave_modal_section .modal-dialog .modal-content { padding: 24px; }
+	.leave_modal_section .modal-content .modal-header { margin-bottom: 24px; align-items: center; }
+	.leave_modal_section .modal-content .modal-header .modal-title { font-size: 22px; }
+	.control_indicator { top: -2px; }
+	.input-row .form-label { font-size: 14px; }
+	.fromto_box { flex-direction: column; margin: 16px 0; }
+	.leave_modal_section .modal-content .modal-body .input-row + .input-row { margin-top: 16px; }
+
+	/* ========== User_Leaves Page Style: End ========== */
+
+	/* ========== User_Report Page Style: Start ========== */
+
+	.timmer_box { flex-direction: column; gap: 16px; align-items: flex-start; }
+	.timmer_box .left_part a { font-size: 20px; }
+	.timmer_box .left_part a span { height: 26px; width: 26px; }
+	.timmer_box .left_part a span i { max-width: 10px; }
+	.timmer_box .right_part .spend_time p { font-size: 16px; gap: 12px; }
+	.timmer_box .right_part .spend_time p a { font-size: 14px; height: 40px; }
+	.timmer_box .right_part .spend_time p a i { max-width: 14px; }
+	.user_report_title_sec { padding: 0 16px 24px 16px; align-items: center; }
+	.user_report_title_sec .title { position: relative; left: 0; transform: translate(0); }
+	.user_report_title_sec .title h3 { height: 30px; font-size: 16px; }
+	.user_view_report { display: none; }
+	.user_mobile_view_report { display: block; padding: 0 16px 20px 16px; }
+	.user_report_accordion .accordion-header .accordion-button { padding: 16px 20px 16px 16px; gap: 16px; }
+	.user_report_accordion .accordion-header .accordion-button .number_box { width: auto; }
+	.user_report_accordion .accordion-header .accordion-button .project_name strong { font-size: 14px; }
+	.user_report_accordion .accordion-header .accordion-button .project_name { width: auto; padding: 0; font-size: 14px; flex-direction: column; align-items: flex-start; gap: 4px; }
+	.user_report_accordion .accordion-header .accordion-button .total_time { width: auto; font-size: 14px; margin-left: auto; }
+	.user_report_accordion .accordion-collapse .accordion-body { padding: 0; }
+	.user_mobile_view_report .task_entry_number_box { padding: 0 16px 24px 16px; }
+	.user_mobile_view_report .task_entry_number_box .hasbox { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); padding: 0 0 10px 0; }
+	.user_mobile_view_report .task_entry_number_box .number { font-size: 15px; line-height: 1.15; color: var(--text-gray); }
+	.user_mobile_view_report .task_entry_content { padding: 0 16px 24px 16px; }
+	.user_mobile_view_report .task_entry_content .task_name { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); padding: 0 0 10px 0; }
+	.user_mobile_view_report .task_entry_content .content { font-size: 14px; line-height: 1.43; color: var(--text-gray); }
+	.user_mobile_view_report .task_entry_spent_time { display: flex; align-items: center; justify-content: space-between; padding: 0 16px 24px 16px; }
+	.user_mobile_view_report .task_entry_spent_time .spent_time { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.user_mobile_view_report .task_entry_spent_time .time { font-size: 14px; line-height: 1.15; color: var(--text-gray); }
+	.user_mobile_view_report .mobile_task_list { padding: 18px 0 0 0; }
+	.user_mobile_view_report .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
+
+	/* ========== User_Report Page Style: End ========== */
+
+	/* ========== Notification Page Style: Start ========== */
+
+	.notification_box .notify_sec { flex-direction: column; gap: 20px; }
+	.notification_box .notify_sec .left_box .user_icon { height: 28px; width: 28px; }
+	.notification_box .notify_sec .left_box .user_icon span { height: 24px; width: 24px; font-size: 10px; padding-top: 4px; }
+	.notification_box .notify_sec .left_box .user_content .top_box { gap: 6px; }
+	.notification_box .notify_sec .left_box .user_content .top_box h6 { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .top_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box { flex-direction: column; gap: 6px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box p { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box span { font-size: 14px; }
+	.notification_box .notify_sec .left_box .user_content .bottom_box span::after { display: none; }
+	.notification_box + .notification_box { margin-top: 18px; }
+	.notification_listsection .load_more_btn { margin-top: 26px; }
+	.notification_listsection .load_more_btn .btn_wrap { height: 42px; }
+	.notification_listsection .load_more_btn .btn_wrap span { font-size: 15px; }
+
+	/* ========== Notification Page Style: End ========== */
+
+	/* ========== Profile Page Style: Start ========== */
+
+	.profilepage_row .row { row-gap: 24px; }
+	.profile_section { max-width: 262px; margin: 0 auto; padding: 20px; }
+	.user_detail_section { padding: 24px; }
+	.user_detail_section .change_password_box .btnbox .primary-btn { height: 38px; width: 100%; }
+	.user_detail_section .change_password_box .input-row .address { height: 130px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box { right: 14px; top: 15px; }
+	.user_detail_section .change_password_box .input-row .dob_box .img_box .icon { height: 20px; width: 20px; }
+
+	/* ========== Profile Page Style: End ========== */
+
+	/* ========== Manager_Dashboard Page Style: Start ========== */
+
+	.manager_leave_box .right_part .name_box span { font-size: 8px; }
+	.name-tooltip .tooltip-inner { font-size: 12px; }
+	.manager_dash_row .task-listing .title_block .manager_search_section .search_text { max-width: 100%; }
+	.manager_dash_row .show_entry_sec .free_wrapper .free_box { padding: 16px 16px 12px 16px; }
+	.manager_dash_row .show_entry_sec .free_wrapper .free_box .left_box .name_sec h6 { font-size: 14px; }
+	.manager_dash_row .show_entry_sec .free_wrapper .free_box .right_box span { font-size: 14px; }
+
+	/* ========== Manager_Dashboard Page Style: End ========== */
+
+	/* ========== Manager_Projects Page Style: Start ========== */
+
+	.file_attachment .form-control { flex-direction: column; height: 380px; }
+	.file_attachment .form-control .left_section .upload_box { flex-direction: column; align-items: flex-start; }
+	.file_attachment .form-control .left_section .upload_box .uploadfile_name { height: 58px; }
+	.file_attachment .form-control .left_section { max-height: 265px; overflow-y: scroll; }
+	.file_attachment .form-control .left_section::-webkit-scrollbar { width: 4px; display: none; }
+	.file_attachment .form-control .left_section::-webkit-scrollbar-track { background-color: var(--primary-hover-color) !important; }
+	.file_attachment .form-control .left_section::-webkit-scrollbar-thumb { background: var(--heading-black); -webkit-border-radius: 50px; border-radius: 50px; }
+	.file_attachment .form-control .btn_sec { justify-content: center; }
+	.file_attachment .form-control .left_section .upload_box .br_dropzone { min-width: 236px; }
+	.leave_modal_section_box .modal-dialog { max-width: 340px; margin: 0 auto; }
+	.leave_modal_section_box .modal-dialog .modal-content { padding: 24px; }
+	.leave_modal_section_box .modal-content .modal-header { margin-bottom: 24px; align-items: center; }
+	.leave_modal_section_box .modal-content .modal-header .modal-title { font-size: 22px; }
+	.leave_modal_section_box .modal-content .modal-body .input-row + .input-row { margin-top: 16px; }
+
+	/* ========== Manager_Projects Page Style: End ========== */
+
+	/* ========== Manager_Project_Task_Listing Page Style: Start ========== */
+
+	.project_task_main_box { flex-direction: column; gap: 24px; }
+	.project_task_main_box .right_box h5 { font-size: 14px; }
+	.project_task_main_box .right_box h5 + h5 { margin-top: 12px; }
+	.project_task_listing_box_section { margin: 24px 0 24px 0; background: none; padding: 0; flex-direction: column-reverse; gap: 24px; align-items: unset; }
+	.project_task_listing_box_section .nav { margin: 0; background: var(--primary-white); border-radius: 14px; }
+	.project_task_listing_box_section .nav::-webkit-scrollbar { display: none; }
+	.project_task_listing_box_section .btn_wrap { margin-left: auto; }
+	.filter_search_section { flex-direction: column; }
+	.filter_search_section .filter_section { height: 42px; margin: 0 0 20px 0; }
+	.filter_search_section .filter_section .filter_icon { padding: 0 18px; }
+	.filter_search_section .filter_section .filter_icon .img_icon { width: 15px; height: 17px; }
+	.filter_search_section .filter_section .from-filter-date { padding: 0 16px 0 14px; }
+	.filter_search_section .filter_section .from-filter-date .fill_from_date { min-width: 90px; gap: 6px; }
+	.filter_search_section .filter_section .filter_date .fill_date span { height: 18px; width: 18px; }
+	.filter_search_section .filter_section .filter_date .fill_date p { font-size: 13px; }
+	.filter_search_section .filter_section .to-filter-date { padding: 0 12px 0 16px; }
+	.filter_search_section .filter_section .to-filter-date .fill_to_date { min-width: 80px; }
+	.project_time_report_section { display: none; }
+	.mobile_time_report_section { display: block; padding: 0 10px; max-height: 1000px; }
+	.mobile_time_report_section .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
+	.project_tab_section .tab-pane .project_detail_tab_section { padding: 22px 10px; }
+	.project_detail_description { padding: 16px 16px 22px 16px; border: 1px solid var(--mobile-table-stroke); border-radius: 14px; }
+	.project_detail_description h3 { font-size: 16px; }
+	.project_detail_description .date_time_section li p { font-size: 14px; }
+	.project_detail_description .date_time_section li span { font-size: 14px; }
+	.project_detail_description .project_description_section { margin-top: 24px; }
+	.project_detail_description .attach_file_section { margin-top: 24px; }
+	.project_detail_description .attach_file_section .upload_file_section .uploadfile_name { height: 38px; }
+	.project_detail_description .comment_section { margin-top: 24px; }
+	.project_detail_description .comment_section .comments-list .comment_content p { max-width: 238px; }
+	.manager_project_offcanvas .offcanvas-header .button_text .btn-close { margin-right: 10px; }
+	.manager_project_offcanvas .offcanvas-header .btn_box .task_btn { height: 38px; font-size: 14px; }
+
+	/* ========== Manager_Project_Task_Listing Page Style: End ========== */
+
+	/* ========== Manager_Task Page Style: Start ========== */
+
+	.manager_task_listing { margin: 0 0 0 0; }
+	.manager_project_offcanvas .offcanvas-header .btn_box a + a { margin-left: 10px; }
+
+	/* ========== Manager_Task Page Style: End ========== */
+
+	/* ========== Manager_User_Availability Pages Style: Start ========== */
+
+	.user_availability_section { padding: 0 16px 26px 16px; }
+	.mobile_user_view_report { display: block; padding: 60px 0 0 0; }
+	.mobile_user_view_report .user_availability_list { max-height: 1000px; }
+	.mobile_user_view_report .user_availability_list .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list { flex-direction: column; align-items: flex-start; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list { width: 100%; padding: 0 10px 0 32px; text-align: start; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list span { display: flex; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_main_list p { font-size: 14px; line-height: 1.15; color: var(--text-gray); margin-top: 8px; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list { width: 100%; padding: 0 10px 0 32px; margin-top: 12px; }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list span { display: flex; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list p { font-size: 14px; line-height: 1.15; color: var(--text-gray); margin-top: 8px; }
+	.user_no_availability_section { margin: 0; padding: 0 10px; }
+	.user_no_task_scetion .user_no_task_wrap { margin: 60px auto; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add { margin: 60px 0; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .no_task_img { max-width: 200px; }
+	.user_no_task_scetion .user_no_task_wrap .no_task_add .text-wrap { margin-top: 26px; font-size: 16px; }
+
+	/* ========== Manager_User_Availability Pages Style: End ========== */
+
+	/* ========== Manager_Report Page Style: Start ========== */
+
+	.manager_main_report_title { flex-direction: column; align-items: flex-start; margin-bottom: 24px; }
+	.manager_main_report_title h3 { margin-bottom: 24px; }
+	.manager_main_report_title ul { flex-direction: column; width: 100%; padding: 0 16px; }
+	.manager_main_report_title ul li { width: 100%; }
+	.manager_main_report_title ul li a { height: 36px; }
+	.manager_main_report_title ul li a span { font-size: 14px; }
+	.manager_main_report_title ul li + li { margin: 16px 0 0 0; }
+	.manager_selection_box { padding: 16px 18px 20px 16px; }
+	.manager_selection_box .btnbox { margin-top: 24px; }
+	.manager_selection_box .btnbox .primary-btn { height: 36px; width: 100%; }
+	.manager_selection_box .btnbox .primary-btn span { font-size: 14px; }
+	.manager_report_table_section .button_blocks { flex-direction: column; width: 100%; }
+	.manager_report_table_section .button_blocks .btnbox { margin: 22px 0 0 0; width: 100%; }
+	.manager_report_table_section .button_blocks .btnbox .primary-btn { width: 100%; }
+	.manager_report_table_section .button_blocks .btnbox .primary-btn span { font-size: 14px; }
+	.manager_report_view_main_title .project_tab_section .nav { margin: 24px 0 0 0; }
+	.manager_report_view_main_title .project_tab_section .tab-pane .task-listing { margin: 24px 0 0 0; }
+	.manager_report_view_main_title .manager_view_report_entry { padding: 0 16px 24px 16px; }
+	.manager_report_view_main_title .manager_view_report_entry .length_search_box { align-items: center; }
+	.manager_inner_view_report { display: none; }
+	.mobile_manager_inner_report { display: block; padding: 0 16px; }
+	.mobile_manager_inner_report ul { display: block; position: relative; }
+	.mobile_manager_inner_report ul li { width: 100%; padding: 16px; border: 1px solid var(--light-gray-border); border-radius: 14px; }
+	.mobile_manager_inner_report ul li .inner_main_list { display: block; }
+	.mobile_manager_inner_report ul li .inner_main_list span { display: block; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_manager_inner_report ul li .inner_main_list p { color: var(--text-gray); font-size: 14px; line-height: 1.15; margin-top: 8px; }
+	.mobile_manager_inner_report ul li .inner_sub_list { display: block; margin-top: 12px; }
+	.mobile_manager_inner_report ul li .inner_sub_list span { display: block; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
+	.mobile_manager_inner_report ul li .inner_sub_list p { color: var(--text-gray); font-size: 14px; line-height: 1.15; margin-top: 8px; }
+	.mobile_manager_inner_report ul li + li { margin-top: 16px; }
+	.manager_report_overdue_main_title .manager_selection_box { margin-top: 24px; }
+	.manager_selection_box .manager_inner_selection_box { flex-direction: column; }
+	.manager_selection_box .manager_inner_selection_box .user-input-row { width: 100%; }
+	.manager_selection_box .manager_inner_selection_box .fromto_box { width: 100%; margin: 16px 0 0 0; }
+	.manager_report_overdue_main_title .mobile_table_sec .task_list_block .project_box .mobile_project_title span { display: inline-flex; color: var(--heading-black); }
+	.master_report_main_title .manager_selection_box { margin-top: 24px; }
+	.manager_selection_box .manager_inner_selection_box { flex-direction: column; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .user-input-row { width: 100%; }
+	.master_report_main_title .manager_selection_box .manager_inner_selection_box .fromto_box { width: 100%; margin: 16px 0 0 0; }
+	.master_report_main_title .task-listing .master_report_accordion { display: none; }
+	.master_report_main_title .task-listing { padding: 16px 16px 20px 16px; }
+	.master_report_main_title .task-listing .master_report_mobile_accordion { display: block; }
+	.master_report_main_title .master_report_mobile_accordion .accordion-header .accordion-button { gap: 0; }
+	.master_report_main_title .master_report_mobile_accordion .accordion-header .accordion-button .project_name { gap: 0; flex-direction: row; }
+	.master_report_main_title .master_report_mobile_accordion .accordion-header .accordion-button .project_name span { font-size: 14px; }
+	.master_report_mobile_accordion .mobile_task_list { padding: 18px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_number_box { padding: 0 16px 24px 16px; }
+	.master_report_mobile_accordion .task_entry_number_box .hasbox { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_number_box .number { font-size: 15px; line-height: 1.15; color: var(--text-gray); padding: 10px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_content { padding: 0 16px 24px 16px; }
+	.master_report_mobile_accordion .task_entry_content .task_name { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_content .content { font-size: 14px; line-height: 1.43; color: var(--text-gray); padding: 10px 0 0 0; }
+	.master_report_mobile_accordion .task_entry_spent_time { display: flex; align-items: center; justify-content: space-between; padding: 0 16px 24px 16px; }
+	.master_report_mobile_accordion .task_entry_spent_time .spent_time { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 14px; line-height: 0.93; color: var(--heading-black); }
+	.master_report_mobile_accordion .task_entry_spent_time .time { font-size: 14px; line-height: 1.15; color: var(--text-gray); }
+	.master_report_mobile_accordion .task_entry_spent_time .mobile_multipal_entry_bg .time + .time { margin-top: 6px; }
+	.master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
+
+	/* ========== Manager_Report Page Style: End ========== */
+
+
+	/* ================================================== Dark Mode Style: Start ================================================== */
+	
+	/* Manager_Project_Task_Listing Page Dark Mode Css: Start */
+
+	.dark-mode .user_mobile_view_report .mobile_task_list + .mobile_task_list { border-top-color: var(--stroke-rgba-10); }
+
+	/* Manager_Project_Task_Listing Page Dark Mode Css: End */
+
+	/* ================================================== Dark Mode Style: End ================================================== */
+}

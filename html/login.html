@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="fonts/font.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>
+	<body>
+		<div class="login-page">
+			<div class="login-section">
+				<div class="login-bg">
+					<img src="images/login-bg.png" alt="bg-img">
+				</div>
+				<div class="login-form-box">
+					<div class="w3nuts-logo">
+						<img src="images/w3nuts-logo.svg" alt="logo">
+					</div>
+					<p>Please login to your account</p>
+					<div class="form-box-wrap">
+						<form action="user_dashboard.html">
+							<div class="input-row wrong_info">
+								<label class="form-label" for="email">Email</label>
+								<div class="email-section">
+									<div class="mail-wrapper">
+										<i class="email-icon"></i>
+									</div>
+									<input class="form-control email-box" type="text" placeholder="Enter your email">
+								</div>
+								<span class="error_msg">Invalid email address</span>
+							</div>
+							<div class="input-row">
+								<label class="form-label" for="Password">Password</label>
+								<div class="pass_wrap">
+									<div class="password_section">
+										<i class="pass-icon"></i>
+									</div>
+									<input class="form-control pass-box" type="password" placeholder="Enter password">
+									<div class="pass_eye_icon">
+										<i class="icon" style="background-image: url('./images/password-eye-icon.svg');"></i>
+									</div>
+								</div>
+								<span class="error_msg">Enter valid password</span>
+							</div>
+							<div class="rem-pass-box">
+								<div class="form-check form-switch">
+									<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+									<label class="form-check-label" for="flexSwitchCheckChecked">Remember me</label>
+								</div>
+								<a href="#" class="forgot">Forgot Password?</a>
+							</div>
+							<div class="btnbox">
+								<input class="primary-btn" type="submit" value="Login">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="copy-right">
+				<span>2024 Developed by <a href="#">W3nuts</a></span>
+			</div>
+		</div>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
