@@ -53,6 +53,7 @@
 	--dark-primary-heading-black-text: #373652;
 	--dark-primary-heading-black-scroll-bg: #373652;
 	--dark-primary-heading-black-bg: #373652;
+	--dark-primary-heading-black-svg: #373652;
 
 	--dark-primary-profile-bg: #F8FAFC;
 	--dark-primary-logo-bg: #F8FAFC;
@@ -759,6 +760,8 @@ p { margin: 0; padding: 0; }
 .timmer_box .right_part .spend_time p a:hover i svg path { stroke: var(--primary-blue); } 
 .user_report_title_sec { flex-direction: row; justify-content: flex-end; }
 .user_report_title_sec .title { position: absolute; top: 0; left: 50%; transform: translate(-50%, 0); }
+.user_main_report_wrapper .user_report_title_sec { display: block; padding: 0 24px 28px 24px; }
+.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: flex-end; }
 .user_report_title_sec .title h3 { color: var(--primary-white); height: 56px; display: flex; justify-content: center; align-items: center; padding: 0 35px; background: var(--primary-blue); border-radius: 0 0 24px 24px; text-transform: capitalize; }
 .user_report_title_sec .input-row { display: flex; align-items: center; gap: 22px; }
 .user_report_title_sec .input-row .form-label { margin: 0; font-size: 14px; }
@@ -866,7 +869,7 @@ p { margin: 0; padding: 0; }
 .profile_section .profile_wrapper .mail_box { display: flex; font-size: 14px; line-height: 1.15; color: var(--heading-black); margin-top: 10px; text-transform: lowercase; }
 .user_detail_section { padding: 32px; background: var(--primary-white); border-radius: 14px; position: relative; }
 .user_detail_section .bg_logo_box { display: flex; max-width: 211px; opacity: 0.1; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-.user_detail_section .bg_logo_box img { width: 100%; height: auto; }
+.user_detail_section .bg_logo_box svg { width: 100%; height: auto; }
 .user_detail_section .change_password_box { display: block; position: relative; }
 .user_detail_section .change_password_box .row { margin: 0 -8px; row-gap: 16px; }
 .user_detail_section .change_password_box .row>* { padding: 0 8px; }
@@ -1209,6 +1212,7 @@ p { margin: 0; padding: 0; }
 .manager_report_view_main_title .project_tab_section .nav { margin: 32px 0 0 0; }
 .manager_report_view_main_title .project_tab_section .tab-pane .task-listing { margin: 32px 0 0 0; }
 .manager_report_view_main_title .manager_view_report_entry { padding: 0 24px 32px 24px; }
+.manager_report_view_main_title .user_report_title_sec .title { position: absolute; }
 .manager_inner_view_report { padding: 0 24px 6px 24px; }
 .manager_inner_view_report .main_title { display: flex; align-items: center; margin: 0 0 24px 0; }
 .manager_inner_view_report .main_title .hasbox { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); width: 80px; }
@@ -1263,6 +1267,15 @@ p { margin: 0; padding: 0; }
 .master_report_main_title .task-listing .master_report_mobile_accordion { display: none; }
 
 /* ========== Manager_Report Page Style: End ========== */
+
+/* ========== Error Page Style: Start ========== */
+
+.error_wrapper { display: flex; justify-content: center; align-items: center; height: calc(100vh - 144px); }
+.error_wrapper .user_no_task_scetion .user_no_task_wrap { max-width: none; margin: 0; height: auto; padding: 140px 400px; }
+.error_wrapper .user_no_task_scetion .user_no_task_wrap .no_task_add { margin: 0; }
+
+/* ========== Error Page Style: End ========== */
+
 
 
 /* ================================================== Dark Mode Style: Start ================================================== */
@@ -1319,6 +1332,8 @@ p { margin: 0; padding: 0; }
 .dark-mode .title_block .search_section .search_icon .dark_search { display: block; }
 .dark-mode .table_data thead tr th span a svg path { fill: var(--dark-heading-black-svg); }
 .dark-mode .table_data tbody tr td .user_name_box .user_icon { background: var(--heading-black); }
+.dark-mode .show_entry_sec .table_data tbody tr td .user_name_box .user_icon { background: var(--heading-black) !important; }
+.dark-mode .show_entry_sec .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500) !important; }
 .dark-mode .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500); color: var(--dark-primary-heading-black-text); }
 .dark-mode .table_data tbody tr td .edit_delete_block .edit_box { background: var(--dark-heading-black-bg); }
 .dark-mode .table_data tbody tr td .edit_delete_block .delete_box { background: var(--dark-heading-black-bg); }
@@ -1414,6 +1429,15 @@ p { margin: 0; padding: 0; }
 
 /* Manager_Task Page Dark Mode Css: End */
 
+/* Manager_Users & Admins Page Dark Mode Css: Start */
+
+.dark-mode .manager_user_wrapper .table_data tbody tr td .user_name_box .user_icon { background: var(--heading-black) !important; }
+.dark-mode .manager_user_wrapper .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500) !important; }
+.dark-mode .manager_admin_wrapper .table_data tbody tr td .user_name_box .user_icon { background: var(--heading-black) !important; }
+.dark-mode .manager_admin_wrapper .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500) !important; }
+
+/* Manager_Users & Admins Page Dark Mode Css: End */
+
 /* Manager_User_Availability Page Dark Mode Css: Start */
 
 .dark-mode .table_data tbody tr td .user_name_box .dark_pink_team_bg { background: var(--light-pink) !important; }
@@ -1425,5 +1449,85 @@ p { margin: 0; padding: 0; }
 .dark-mode .user_availability_section .main_title .time { color: var(--dark-primary-white-text); }
 
 /* Manager_User_Availability Page Dark Mode Css: End */
+
+/* Manager_Leaves Page Dark Mode Css: Start */
+
+.dark-mode .table_data tbody tr td .leave_date_box .day { color: var(--dark-primary-white-text); }
+.dark-mode .leave_tab_section .task_list_block .mobile_listing .list_wrapper .leave_time span i { color: var(--dark-primary-white-text); }
+.dark-mode .control { color: var(--dark-primary-white-text); }
+
+/* Manager_Leaves Page Dark Mode Css: End */
+
+/* Manager_Report Page Dark Mode Css: Start */
+
+.dark-mode .manager_main_report_title h3 { color: var(--dark-primary-white-text); }
+.dark-mode .manager_main_report_title ul li .overdue_report_btn:hover .icon_section svg path { stroke: var(--dark-primary-white-svg); }
+.dark-mode .manager_main_report_title ul li .overdue_report_btn:hover span { color: var(--dark-primary-white-text); }
+.dark-mode .manager_main_report_title ul li .master_report_btn span { color: var(--dark-primary-white-text); }
+.dark-mode .manager_main_report_title ul li .master_report_btn:hover span { color: var(--primary-blue); }
+.dark-mode .manager_selection_box .btnbox .primary-btn span { color: var(--dark-primary-white-text); }
+.dark-mode .manager_selection_box .btnbox .primary-btn:hover span { color: var(--primary-blue); }
+.dark-mode .manager_report_table_section .button_blocks .btnbox .primary-btn:hover .icon svg path { stroke: var(--dark-primary-white-svg); }
+.dark-mode .manager_report_table_section .button_blocks .btnbox .primary-btn:hover span { color: var(--dark-primary-white-text); }
+.dark-mode .manager_report_table_section .table_data tbody tr td .user_name_box .user_icon { background: var(--heading-black) !important; }
+.dark-mode .manager_report_table_section .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500) !important; }
+.dark-mode .timmer_box .left_part a { color: var(--dark-primary-white-text); }
+.dark-mode .timmer_box .right_part .spend_time p a { color: var(--dark-primary-white-text); }
+.dark-mode .timmer_box .right_part .spend_time p a:hover { color: var(--primary-blue); }
+.dark-mode .user_report_title_sec .input-row .calander .img_box .icon { background-image: url(../images/date-icon.svg); }
+.dark-mode .manager_inner_view_report .inner_wrapper .entry_box { border-bottom-color: var(--text-gray); }
+.dark-mode .manager_inner_view_report .main_title .hasbox { color: var(--dark-primary-white-text); }
+.dark-mode .manager_inner_view_report .main_title .project_title { color: var(--dark-primary-white-text); }
+.dark-mode .manager_inner_view_report .main_title .time { color: var(--dark-primary-white-text); }
+.dark-mode .master_report_main_title .user_report_accordion .accordion-body ul .title_wrapper .inner_project_title .title { color: var(--dark-primary-white-text); }
+.dark-mode .master_report_main_title .user_report_accordion .accordion-body ul .title_wrapper .inner_date_title .date_title { color: var(--dark-primary-white-text); }
+.dark-mode .master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper + .inner_title_wrapper { border-top-color: var(--mobile-table-stroke); }
+.dark-mode .master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_time.multipal_entry_bg { background: var(--mobile-table-stroke); }
+.dark-mode .master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_time.dark_pink_team_bg { background: var(--light-pink) !important; }
+
+/* Manager_Report Page Dark Mode Css: End */
+
+/* User_Dashboard Page Dark Mode Css: Start */
+
+.dark-mode .title_block h3 { color: var(--dark-primary-white-text); }
+.dark-mode .table_data tbody tr.active { background: var(--light-white-bg); }
+
+/* User_Dashboard Page Dark Mode Css: End */
+
+/* User_Projects Page Dark Mode Css: Start */
+
+.dark-mode .action_green_icon { background: var(--dark-heading-black-bg); }
+.dark-mode .action_green_icon i svg path { stroke: var(--dark-primary-heading-black-svg); }
+.dark-mode .project_title_box h3 { color: var(--dark-primary-white-text); }
+.dark-mode .caption_wrapper .left_part h3 { color: var(--dark-primary-white-text); }
+.dark-mode .caption_wrapper .right_part h3 { color: var(--dark-primary-white-text); }
+.dark-mode .caption_wrapper .right_part span { color: var(--dark-primary-white-text); }
+.dark-mode .project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn { color: var(--dark-primary-white-text); }
+.dark-mode .project_detail_offcanvas .offcanvas-header .button_text .btn_box .primary-btn:hover { color: var(--primary-blue); }
+.dark-mode .date-time-box .add_estimated_time_box .title i svg path { stroke: var(--dark-heading-black-svg); }
+.dark-mode .date-time-box .add_estimated_time_box .title i svg ellipse { stroke: var(--dark-heading-black-svg); }
+.dark-mode .date-time-box .add_estimated_time_box .input-row .time-section .form-control { border-color: var(--text-gray); }
+.dark-mode .date-time-box .add_estimated_time_box .input-row .time-section .btnbox .primary-btn { color: var(--dark-primary-white-text); }
+.dark-mode .date-time-box .add_estimated_time_box .input-row .time-section .btnbox .primary-btn:hover { color: var(--primary-blue); }
+
+/* User_Projects Page Dark Mode Css: End */
+
+/* Profile Page Dark Mode Css: Start */
+
+.dark-mode .profile_section .profile_wrapper .name_section span { color: var(--dark-primary-white-text); }
+.dark-mode .profile_section .profile_wrapper .type_section { color: var(--dark-primary-white-text); }
+.dark-mode .profile_section .profile_wrapper .mail_box { color: var(--dark-primary-white-text); }
+.dark-mode .user_detail_section .bg_logo_box svg .dark_white_text_logo { fill: var(--dark-primary-logo-bg); }
+.dark-mode .user_detail_section .bg_logo_box svg .dark_red_text_logo { fill: var(--primary-blue); }
+.dark-mode .user_detail_section .bg_logo_box { opacity: 0.2; }
+.dark-mode .user_detail_section .change_password_box .btnbox .primary-btn { color: var(--dark-primary-white-text); }
+.dark-mode .user_detail_section .change_password_box .btnbox .primary-btn:hover { color: var(--primary-blue); }
+
+.dark-mode .notification_box .notify_sec .left_box .user_icon { background: var(--heading-black); }
+.dark-mode .notification_box .notify_sec .left_box .user_icon span { background: var(--light-blue-500); color: var(--dark-primary-heading-black-text); }
+.dark-mode .notification_listsection .load_more_btn .btn_wrap span { color: var(--dark-primary-white-text); }
+.dark-mode .notification_listsection .load_more_btn .btn_wrap:hover span { color: var(--primary-blue); }
+
+/* Profile Page Dark Mode Css: End */
 
 /* ================================================== Dark Mode Style: End ================================================== */

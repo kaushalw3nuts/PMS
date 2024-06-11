@@ -207,6 +207,8 @@
 	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 350px; }
 	.user_report_title_sec .title { position: relative; display: flex; justify-content: center; }
 	.user_availability_section .user_view_report { padding: 80px 0 0 0; }
+	.user_main_report_wrapper .user_report_title_sec { display: block; padding: 0 24px 28px 24px; }
+	.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: flex-end; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -351,6 +353,8 @@
 	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 250px; }
 	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 250px - 140px); }
 	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 250px; }
+	.user_main_report_wrapper .user_report_title_sec { display: block; padding: 0 18px 24px 24px; }
+	.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: flex-end; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -441,6 +445,12 @@
 	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_time { width: calc((100% / 7) - 260px); }
 
 	/* ========== Manager_Report Pages Style: Start ========== */
+
+	/* ========== Error Page Style: Start ========== */
+
+	.error_wrapper .user_no_task_scetion .user_no_task_wrap { padding: 100px 200px; }
+
+	/* ========== Error Page Style: End ========== */
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -606,6 +616,8 @@
 	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 200px; text-align: left; }
 	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 200px - 140px); }
 	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 200px; text-align: left; }
+	.user_main_report_wrapper .user_report_title_sec { display: block; padding: 0 18px 24px 24px; }
+	.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: flex-end; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -708,6 +720,12 @@
 	.master_report_main_title .user_report_accordion .accordion-body ul .inner_title_wrapper .inner_project_name .task_name p { margin-left: 10px; }
 
 	/* ========== Manager_Report Page Style: End ========== */
+
+	/* ========== Error Page Style: Start ========== */
+
+	.error_wrapper .user_no_task_scetion .user_no_task_wrap { padding: 100px 200px; }
+
+	/* ========== Error Page Style: End ========== */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -909,6 +927,8 @@
 	.user_report_accordion .time-report-accordion-body .sub_title .time { width: 150px; text-align: center; }
 	.user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 68px - 150px - 140px); }
 	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 150px; text-align: center; }
+	.user_main_report_wrapper .user_report_title_sec { display: block; padding: 0 18px 24px 20px; }
+	.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: flex-end; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -1064,6 +1084,24 @@
 	.master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
 
 	/* ========== Manager_Report Page Style: End ========== */
+
+	/* ========== Error Page Style: Start ========== */
+
+	.error_wrapper .user_no_task_scetion .user_no_task_wrap { padding: 100px 200px; }
+
+	/* ========== Error Page Style: End ========== */
+
+
+
+	/* ================================================== Dark Mode Style: Start ================================================== */
+
+	/* Manager_Report Page Dark Mode Css: Start */
+
+	.dark-mode .master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top-color: var(--mobile-table-stroke); }
+
+	/* Manager_Report Page Dark Mode Css: End */
+
+	/* ================================================== Dark Mode Style: End ================================================== */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1242,6 +1280,8 @@
 	.user_report_accordion .time-report-accordion-body .entry_box .time { width: 150px; text-align: center; }
 	.user_report_accordion .accordion-body .sub_title .time_run { font-size: 14px; }
 	.user_report_accordion .accordion-body .entry_box .time_run { font-size: 14px; }
+	.user_main_report_wrapper .user_report_title_sec { display: block; padding: 0 20px 24px 24px; }
+	.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: center; margin-top: 30px; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -1412,6 +1452,14 @@
 
 	/* ========== Manager_Report Page Style: End ========== */
 
+	/* ========== Error Page Style: Start ========== */
+
+	.error_wrapper .user_no_task_scetion .user_no_task_wrap { padding: 100px; }
+
+	/* ========== Error Page Style: End ========== */
+
+
+
 	/* ================================================== Dark Mode Style: Start ================================================== */
 
 	/* Manager_User_Availability Page Dark Mode Css: Start */
@@ -1420,6 +1468,14 @@
 	.dark-mode .mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list span { color: var(--dark-primary-white-text); }
 
 	/* Manager_User_Availability Page Dark Mode Css: End */
+
+	/* Manager_Report Page Dark Mode Css: Start */
+
+	.dark-mode .mobile_manager_inner_report ul li .inner_main_list span { color: var(--dark-primary-white-text); }
+	.dark-mode .mobile_manager_inner_report ul li .inner_sub_list span { color: var(--dark-primary-white-text); }
+	.dark-mode .master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top-color: var(--mobile-table-stroke); }
+
+	/* Manager_Report Page Dark Mode Css: End */
 
 	/* ================================================== Dark Mode Style: End ================================================== */
 }
@@ -1682,6 +1738,8 @@
 	.user_mobile_view_report .task_entry_spent_time .time { font-size: 14px; line-height: 1.15; color: var(--text-gray); }
 	.user_mobile_view_report .mobile_task_list { padding: 18px 0 0 0; }
 	.user_mobile_view_report .mobile_task_list + .mobile_task_list { border-top: 1px solid var(--stroke-color); }
+	.user_main_report_wrapper .user_report_title_sec { display: block; }
+	.user_main_report_wrapper .user_report_title_sec .input-row { justify-content: center; margin-top: 20px; }
 
 	/* ========== User_Report Page Style: End ========== */
 
@@ -1832,6 +1890,7 @@
 	.manager_report_view_main_title .project_tab_section .tab-pane .task-listing { margin: 24px 0 0 0; }
 	.manager_report_view_main_title .manager_view_report_entry { padding: 0 16px 24px 16px; }
 	.manager_report_view_main_title .manager_view_report_entry .length_search_box { align-items: center; }
+	.manager_report_view_main_title .user_report_title_sec { padding: 50px 16px 24px 16px; }
 	.manager_inner_view_report { display: none; }
 	.mobile_manager_inner_report { display: block; padding: 0 16px; }
 	.mobile_manager_inner_report ul { display: block; position: relative; }
@@ -1873,6 +1932,14 @@
 
 	/* ========== Manager_Report Page Style: End ========== */
 
+	/* ========== Error Page Style: Start ========== */
+
+	.error_wrapper .user_no_task_scetion .user_no_task_wrap { padding: 100px 40px; }
+
+	/* ========== Error Page Style: End ========== */
+
+
+
 
 	/* ================================================== Dark Mode Style: Start ================================================== */
 	
@@ -1888,6 +1955,14 @@
 	.dark-mode .mobile_user_view_report .user_availability_list .task_bundal .list_task_main .inner_list .inner_sub_list span { color: var(--dark-primary-white-text); }
 
 	/* Manager_User_Availability Page Dark Mode Css: End */
+
+	/* Manager_Report Page Dark Mode Css: Start */
+
+	.dark-mode .mobile_manager_inner_report ul li .inner_main_list span { color: var(--dark-primary-white-text); }
+	.dark-mode .mobile_manager_inner_report ul li .inner_sub_list span { color: var(--dark-primary-white-text); }
+	.dark-mode .master_report_mobile_accordion .mobile_task_list + .mobile_task_list { border-top-color: var(--mobile-table-stroke); }
+
+	/* Manager_Report Page Dark Mode Css: End */
 
 	/* ================================================== Dark Mode Style: End ================================================== */
 }
