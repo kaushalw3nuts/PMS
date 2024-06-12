@@ -654,8 +654,10 @@ p { margin: 0; padding: 0; }
 .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form { display: block; }
 .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .comment-text { width: 100%; height: 150px; font-size: 16px; color: var(--text-gray); font-weight: 400; background: var(--primary-white); border: 1px solid var(--stroke-color); border-radius: 10px; box-shadow: none; outline: none; margin: 0; padding: 10px; resize: none; }
 .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box { display: flex; padding-top: 15px; gap: 10px; }
-.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn { font-size: 14px; color: var(--primary-white); font-weight: 400; line-height: 1.2; background: var(--primary-blue); border: none; border-radius: 6px; cursor: pointer; padding: 10px 17px 9px 17px; }
-.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn.cancle { background: var(--red-error-msg); }
+.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn { font-size: 14px; color: var(--primary-white); font-weight: 400; line-height: 1.2; background: var(--primary-blue); border: none; border-radius: 6px; cursor: pointer; padding: 10px 17px 9px 17px; transition: all 0.4s ease-in-out; border: 1px solid var(--primary-blue); }
+.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn:hover { background: transparent; color: var(--primary-blue); }
+.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn.cancle { background: var(--red-error-msg); border: 1px solid var(--red-error-msg); }
+.comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn.cancle:hover { background: transparent; color: var(--red-error-msg); }
 .comments-list .commentbox-wrap .sub-commentbox { padding-left: 50px; }
 .comments-list .commentbox-wrap .sub-commentbox .commentbox { border-top: 1px solid var(--stroke-color); }
 .review_task_table .table_data tbody tr td:nth-child(1) { padding-left: 26px; }
@@ -1340,8 +1342,6 @@ p { margin: 0; padding: 0; }
 .dark-mode .show_entry_sec .table_data tbody tr td .user_name_box .user_icon { background: var(--heading-black) !important; }
 .dark-mode .show_entry_sec .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500) !important; }
 .dark-mode .table_data tbody tr td .user_name_box .user_icon i { background: var(--light-blue-500); color: var(--dark-primary-heading-black-text); }
-.dark-mode .table_data tbody tr td .edit_delete_block .edit_box { background: var(--dark-heading-black-bg); }
-.dark-mode .table_data tbody tr td .edit_delete_block .delete_box { background: var(--dark-heading-black-bg); }
 .dark-mode .table_data tbody tr { border-bottom-color: var(--text-gray); }
 .dark-mode .table_data tbody tr:hover { background: var(--primary-hover-color); }
 .dark-mode .table_data tbody tr.overdue_active:hover { background: var(--light-pink); border-bottom: 1px solid var(--light-pink); }
@@ -1354,8 +1354,6 @@ p { margin: 0; padding: 0; }
 .dark-mode .manager_dash_row .show_entry_sec .free_wrapper .free_box .right_box span { color: var(--primary-blue); }
 .dark-mode .task_list_block .project_box .mobile_project_title .user_icon { background: var(--dark-heading-black-bg); }
 .dark-mode .task_list_block .project_box .mobile_project_title .user_icon i { background: var(--light-blue-500); color: var(--dark-primary-heading-black-text); }
-.dark-mode .task_list_block .action_block .edit_delete_block .edit_box { background: var(--dark-heading-black-bg); }
-.dark-mode .task_list_block .action_block .edit_delete_block .delete_box { background: var(--dark-heading-black-bg); }
 .dark-mode .task_list_block .action_block { border-top-color: var(); }
 
 /* Manager_Dashboard Page Dark Mode Css: End */
@@ -1425,12 +1423,16 @@ p { margin: 0; padding: 0; }
 .dark-mode .offcanvas-body .categorie_section .title i svg path { stroke: var(--text-gray); }
 .dark-mode .offcanvas-body .categorie_section ul .badge { color: var(--dark-primary-white-text); }
 .dark-mode .offcanvas-body .categorie_section ul .badge::after { background: var(--dark-primary-white-bg); }
+.dark-mode .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .comment-text { border-color: var(--text-gray); }
 
 /* Manager_Project_Task_Listing Page Dark Mode Css: End */
 
 /* Manager_Task Page Dark Mode Css: Start */
 
 .dark-mode .manager_project_offcanvas .offcanvas-header .btn_box .incomplete_task_btn:hover { color: var(--dark-pink); }
+.dark-mode .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn { color: var(--dark-primary-white-text); }
+.dark-mode .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn:hover { color: var(--primary-blue); }
+.dark-mode .comments-list .commentbox-wrap .commentbox .replay_sec .comments_form .btn_box .form_btn.cancle:hover { color: var(--red-error-msg); }
 
 /* Manager_Task Page Dark Mode Css: End */
 
@@ -1501,8 +1503,6 @@ p { margin: 0; padding: 0; }
 
 /* User_Projects Page Dark Mode Css: Start */
 
-.dark-mode .action_green_icon { background: var(--dark-heading-black-bg); }
-.dark-mode .action_green_icon i svg path { stroke: var(--dark-primary-heading-black-svg); }
 .dark-mode .project_title_box h3 { color: var(--dark-primary-white-text); }
 .dark-mode .caption_wrapper .left_part h3 { color: var(--dark-primary-white-text); }
 .dark-mode .caption_wrapper .right_part h3 { color: var(--dark-primary-white-text); }
