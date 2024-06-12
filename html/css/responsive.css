@@ -1495,15 +1495,16 @@
 	.toggled .sidebar-wrapper .top_sidebar .open-sidebar-logo a i.desktop_logo { opacity: 1; visibility: visible; }
 	.toggled-full .sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { justify-content: flex-start; }
 	.toggled .sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { justify-content: flex-start; }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn.router-link-active { justify-content: flex-start; }
 	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn { padding: 0 24px; }
 	.toggled .primary-btn span { font-size: 18px; }
-	.toggled .primary-btn.active span { color: var(--primary-blue); }
+	.toggled .sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn.router-link-active span { color: var(--primary-blue); }
 	.sidebar-wrapper .top_sidebar .sidebar-nav li + li { margin-top: 10px !important; }
 	.toggled-full .sidebar-wrapper .bottom_sidebar { padding: 25px 10px 18px 20px; opacity: 1; visibility: visible; background: var(--primary-hover-color); }
 	.toggled .sidebar-wrapper .bottom_sidebar ul li::after { height: 4px; width: 4px; }
 	.toggled .sidebar-wrapper .bottom_sidebar .full_title { font-size: 16px; }
 	.toggled .sidebar-wrapper .bottom_sidebar ul li { font-size: 14px; }
-	.primary-btn.active { background: var(--primary-hover-color); }
+	.sidebar-wrapper .top_sidebar .sidebar-nav li .primary-btn.router-link-active { background: var(--primary-hover-color); }
 	.navbar-wrapper .navbar-inverse .sidebar-toggle:hover .menu-toggler-icon, 
 	.navbar-wrapper .navbar-inverse .sidebar-toggle:hover .menu-toggler-icon::after, 
 	.navbar-wrapper .navbar-inverse .sidebar-toggle:hover .menu-toggler-icon::before { background: var(--heading-black); }
