@@ -420,8 +420,7 @@ p { margin: 0; padding: 0; }
 .pagination .page-item .page-link:focus { box-shadow: none; background: transparent; }
 .pagination .page-item .page-link:hover { background: var(--light-blue-200); }
 .pagination .page-item.active .page-link { color: var(--primary-white); background: var(--primary-blue); }
-.mobile_table_sec { max-height: 1000px; display: none; }
-.mobile_table_sec .mCustomScrollBox { width: calc(100% + 10px); max-width: none; padding: 0 10px 0 0; }
+.mobile_table_sec { display: none; }
 .task_list_block { border: 1px solid var(--mobile-table-stroke); border-radius: 14px; padding: 16px 16px 24px 16px; display: block; }
 .task_list_block .has_box { font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-style: normal; font-size: 16px; line-height: 0.93; color: var(--heading-black); display: block; }
 .task_list_block .number_box { display: block; font-weight: 400; font-size: 15px; line-height: 1.15; color: var(--text-gray); margin-top: 8px; }
