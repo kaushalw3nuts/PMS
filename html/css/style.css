@@ -805,11 +805,11 @@ p { margin: 0; padding: 0; }
 .user_report_accordion .accordion-body::-webkit-scrollbar-thumb { background: var(--heading-black); -webkit-border-radius: 50px; border-radius: 50px; }
 .user_report_accordion .accordion-body .sub_title { display: flex; align-items: center; padding: 0 30px 8px 24px; }
 .user_report_accordion .accordion-body .sub_title .hasbox { width: 78px; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
-.user_report_accordion .accordion-body .sub_title .task_name { width: calc(100% - 78px - 100px); padding: 0 20px; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
+.user_report_accordion .accordion-body .sub_title .task_name { width: calc(100% - 78px - 100px - 200px); padding: 0 20px; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
 .user_report_accordion .accordion-body .sub_title .time { width: 100px; text-align: left; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
 .user_report_accordion .accordion-body .entry_box { display: flex; align-items: center; padding: 16px 30px 16px 24px; }
 .user_report_accordion .accordion-body .entry_box .number { width: 78px; font-size: 16px; line-height: 1.15; color: var(--text-gray); }
-.user_report_accordion .accordion-body .entry_box .content { width: calc(100% - 78px - 100px); padding: 0 20px; font-size: 16px; line-height: 1.15; color: var(--text-gray); }
+.user_report_accordion .accordion-body .entry_box .content { width: calc(100% - 78px - 100px - 200px); padding: 0 20px; font-size: 16px; line-height: 1.15; color: var(--text-gray); }
 .user_report_accordion .accordion-body .entry_box .time { width: 100px; text-align: left; font-size: 16px; line-height: 1.15; color: var(--text-gray); }
 .user_report_accordion .accordion-body .entry_box + .entry_box { border-top: 1px solid var(--stroke-color); }
 .user_report_accordion .accordion-body .sub_title .time_run { width: 140px; text-align: center; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); }
@@ -818,6 +818,8 @@ p { margin: 0; padding: 0; }
 .user_report_accordion .time-report-accordion-body .sub_title .task_name { width: calc(100% - 78px - 500px - 140px); }
 .user_report_accordion .time-report-accordion-body .entry_box .time { width: 500px; padding: 0 20px 0 0; }
 .user_report_accordion .time-report-accordion-body .entry_box .content { width: calc(100% - 78px - 500px - 140px); }
+.user_report_accordion .accordion-body .sub_title .time_running { width: 200px; font-weight: 500; font-family: 'HelveticaNeueLT Pro 65 Md'; font-size: 16px; line-height: 0.93; color: var(--heading-black); padding: 0 0 0 20px; text-align: center; }
+.user_report_accordion .accordion-body .entry_box .running_time { width: 200px; font-size: 16px; line-height: 1.15; color: var(--text-gray); padding: 0 0 0 20px; text-align: center; }
 .user_mobile_view_report { display: none; }
 
 /* ========== User_Report Page Style: End ========== */
